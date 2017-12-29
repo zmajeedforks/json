@@ -999,6 +999,11 @@
                 <Anchor>a203910314c0be11c6b2b2cb53a9ad3aa</Anchor>
                </Node>
                <Node>
+                <Name>array_index</Name>
+                <Path>classnlohmann_1_1json__pointer_abb9d487e981dc39ec0b146bbe7150a57.html</Path>
+                <Anchor>abb9d487e981dc39ec0b146bbe7150a57</Anchor>
+               </Node>
+               <Node>
                 <Name>operator std::string</Name>
                 <Path>classnlohmann_1_1json__pointer_a7c2d84318102529336beab1b5952bba0.html</Path>
                 <Anchor>a7c2d84318102529336beab1b5952bba0</Anchor>

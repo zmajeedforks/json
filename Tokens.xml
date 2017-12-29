@@ -2317,6 +2317,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>array_index</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_abb9d487e981dc39ec0b146bbe7150a57.html</Path>
+    <Anchor>abb9d487e981dc39ec0b146bbe7150a57</Anchor>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>basic_json</Name>
       <APILanguage>cpp</APILanguage>
       <Type>ffunc</Type>

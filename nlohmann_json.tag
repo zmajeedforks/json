@@ -1360,6 +1360,13 @@
       <anchor>a0920ebb015398813880e3c0f8464526e</anchor>
       <arglist>() const noexcept</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static int</type>
+      <name>array_index</name>
+      <anchorfile>classnlohmann_1_1json__pointer_abb9d487e981dc39ec0b146bbe7150a57.html</anchorfile>
+      <anchor>abb9d487e981dc39ec0b146bbe7150a57</anchor>
+      <arglist>(const std::string &amp;s)</arglist>
+    </member>
     <member kind="friend" protection="private">
       <type>friend class</type>
       <name>basic_json</name>
