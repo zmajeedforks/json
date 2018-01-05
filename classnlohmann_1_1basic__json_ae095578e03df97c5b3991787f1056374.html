@@ -160,6 +160,8 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6362b88718eb5c6d4fed6a61eed44b95.html#a6362b88718eb5c6d4fed6a61eed44b95">is_primitive</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html#a69b596a4a6683b362095c9a139637396">is_string</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html#a9f68a0af820c3ced7f9d17851ce4c22d">is_structured</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a0b213d6bb7e70201b6b980c30eeffac3.html#a0b213d6bb7e70201b6b980c30eeffac3">items</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0">items</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a099316232c76c034030a38faa6e34dca.html#a099316232c76c034030a38faa6e34dca">iterator</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a3a17532d74ceddffb032cf03b760f5be.html#a3a17532d74ceddffb032cf03b760f5be">iterator_wrapper</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7055d04b1b766c64dcedc8799d7c1e1b.html#a7055d04b1b766c64dcedc8799d7c1e1b">iterator_wrapper</a></td></tr>
@@ -273,10 +275,10 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a href="http://rfc7159.net/rfc7159">RFC 7159</a> describes JSON arrays as follows: </p><blockquote class="doxtable">
-<p>An array is an ordered sequence of zero or more values. </p>
+<p class=""><a href="http://rfc7159.net/rfc7159">RFC 7159</a> describes JSON arrays as follows: </p><blockquote class="doxtable">
+<p class="">An array is an ordered sequence of zero or more values. </p>
 </blockquote>
-<p>To store objects in C++, a type is defined by the template parameters explained below.</p>
+<p class="">To store objects in C++, a type is defined by the template parameters explained below.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">ArrayType</td><td>container type to store arrays (e.g., <code>std::vector</code> or <code>std::list</code>) </td></tr>
@@ -285,18 +287,18 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
   </dd>
 </dl>
 <h4>Default type</h4>
-<p>With the default values for <em>ArrayType</em> (<code>std::vector</code>) and <em>AllocatorType</em> (<code>std::allocator</code>), the default value for <em>array_t</em> is:</p>
+<p class="">With the default values for <em>ArrayType</em> (<code>std::vector</code>) and <em>AllocatorType</em> (<code>std::allocator</code>), the default value for <em>array_t</em> is:</p>
 <div class="fragment"><div class="line">std::vector&lt;</div><div class="line">  <a class="code" href="classnlohmann_1_1basic__json_aed115142bd0c6c66c864700e0467df55.html#aed115142bd0c6c66c864700e0467df55">basic_json</a>, <span class="comment">// value_type</span></div><div class="line">  std::allocator&lt;basic_json&gt; <span class="comment">// allocator_type</span></div><div class="line">&gt;</div></div><!-- fragment --><h4>Limits</h4>
-<p><a href="http://rfc7159.net/rfc7159">RFC 7159</a> specifies: </p><blockquote class="doxtable">
-<p>An implementation may set limits on the maximum depth of nesting. </p>
+<p class=""><a href="http://rfc7159.net/rfc7159">RFC 7159</a> specifies: </p><blockquote class="doxtable">
+<p class="">An implementation may set limits on the maximum depth of nesting. </p>
 </blockquote>
-<p>In this class, the array's limit of nesting is not explicitly constrained. However, a maximum depth of nesting may be introduced by the compiler or runtime environment. A theoretical limit can be queried by calling the <a class="el" href="classnlohmann_1_1basic__json_a2f47d3c6a441c57dd2be00449fbb88e1.html#a2f47d3c6a441c57dd2be00449fbb88e1">max_size</a> function of a JSON array.</p>
+<p class="">In this class, the array's limit of nesting is not explicitly constrained. However, a maximum depth of nesting may be introduced by the compiler or runtime environment. A theoretical limit can be queried by calling the <a class="el" href="classnlohmann_1_1basic__json_a2f47d3c6a441c57dd2be00449fbb88e1.html#a2f47d3c6a441c57dd2be00449fbb88e1">max_size</a> function of a JSON array.</p>
 <h4>Storage</h4>
-<p>Arrays are stored as pointers in a <a class="el" href="classnlohmann_1_1basic__json.html">basic_json</a> type. That is, for any access to array values, a pointer of type <code>array_t*</code> must be dereferenced.</p>
+<p class="">Arrays are stored as pointers in a <a class="el" href="classnlohmann_1_1basic__json.html">basic_json</a> type. That is, for any access to array values, a pointer of type <code>array_t*</code> must be dereferenced.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classnlohmann_1_1basic__json_a5e48a7893520e1314bf0c9723e26ea2a.html#a5e48a7893520e1314bf0c9723e26ea2a">object_t</a> &ndash; type for an object value</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>version 1.0.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l07721">7721</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l07766">7766</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -306,7 +308,7 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 29 2017 20:15:04 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 5 2018 18:35:33 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

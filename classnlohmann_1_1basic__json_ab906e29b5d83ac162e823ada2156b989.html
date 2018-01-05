@@ -160,6 +160,8 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6362b88718eb5c6d4fed6a61eed44b95.html#a6362b88718eb5c6d4fed6a61eed44b95">is_primitive</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html#a69b596a4a6683b362095c9a139637396">is_string</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html#a9f68a0af820c3ced7f9d17851ce4c22d">is_structured</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a0b213d6bb7e70201b6b980c30eeffac3.html#a0b213d6bb7e70201b6b980c30eeffac3">items</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0">items</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a099316232c76c034030a38faa6e34dca.html#a099316232c76c034030a38faa6e34dca">iterator</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a3a17532d74ceddffb032cf03b760f5be.html#a3a17532d74ceddffb032cf03b760f5be">iterator_wrapper</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7055d04b1b766c64dcedc8799d7c1e1b.html#a7055d04b1b766c64dcedc8799d7c1e1b">iterator_wrapper</a></td></tr>
@@ -273,35 +275,35 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a href="http://rfc7159.net/rfc7159">RFC 7159</a> describes numbers as follows: </p><blockquote class="doxtable">
-<p>The representation of numbers is similar to that used in most programming languages. A number is represented in base 10 using decimal digits. It contains an integer component that may be prefixed with an optional minus sign, which may be followed by a fraction part and/or an exponent part. Leading zeros are not allowed. (...) Numeric values that cannot be represented in the grammar below (such as Infinity and NaN) are not permitted. </p>
+<p class=""><a href="http://rfc7159.net/rfc7159">RFC 7159</a> describes numbers as follows: </p><blockquote class="doxtable">
+<p class="">The representation of numbers is similar to that used in most programming languages. A number is represented in base 10 using decimal digits. It contains an integer component that may be prefixed with an optional minus sign, which may be followed by a fraction part and/or an exponent part. Leading zeros are not allowed. (...) Numeric values that cannot be represented in the grammar below (such as Infinity and NaN) are not permitted. </p>
 </blockquote>
-<p>This description includes both integer and floating-point numbers. However, C++ allows more precise storage if it is known whether the number is a signed integer, an unsigned integer or a floating-point number. Therefore, three different types, <a class="el" href="classnlohmann_1_1basic__json_a98e611d67b7bd75307de99c9358ab2dc.html#a98e611d67b7bd75307de99c9358ab2dc">number_integer_t</a>, <a class="el" href="classnlohmann_1_1basic__json_ab906e29b5d83ac162e823ada2156b989.html#ab906e29b5d83ac162e823ada2156b989">number_unsigned_t</a> and <a class="el" href="classnlohmann_1_1basic__json_a88d6103cb3620410b35200ee8e313d97.html#a88d6103cb3620410b35200ee8e313d97">number_float_t</a> are used.</p>
-<p>To store unsigned integer numbers in C++, a type is defined by the template parameter <em>NumberUnsignedType</em> which chooses the type to use.</p>
+<p class="">This description includes both integer and floating-point numbers. However, C++ allows more precise storage if it is known whether the number is a signed integer, an unsigned integer or a floating-point number. Therefore, three different types, <a class="el" href="classnlohmann_1_1basic__json_a98e611d67b7bd75307de99c9358ab2dc.html#a98e611d67b7bd75307de99c9358ab2dc">number_integer_t</a>, <a class="el" href="classnlohmann_1_1basic__json_ab906e29b5d83ac162e823ada2156b989.html#ab906e29b5d83ac162e823ada2156b989">number_unsigned_t</a> and <a class="el" href="classnlohmann_1_1basic__json_a88d6103cb3620410b35200ee8e313d97.html#a88d6103cb3620410b35200ee8e313d97">number_float_t</a> are used.</p>
+<p class="">To store unsigned integer numbers in C++, a type is defined by the template parameter <em>NumberUnsignedType</em> which chooses the type to use.</p>
 <h4>Default type</h4>
-<p>With the default values for <em>NumberUnsignedType</em> (<code>uint64_t</code>), the default value for <em>number_unsigned_t</em> is:</p>
+<p class="">With the default values for <em>NumberUnsignedType</em> (<code>uint64_t</code>), the default value for <em>number_unsigned_t</em> is:</p>
 <div class="fragment"><div class="line">uint64_t</div></div><!-- fragment --><h4>Default behavior</h4>
 <ul>
 <li>The restrictions about leading zeros is not enforced in C++. Instead, leading zeros in integer literals lead to an interpretation as octal number. Internally, the value will be stored as decimal number. For instance, the C++ integer literal <code>010</code> will be serialized to <code>8</code>. During deserialization, leading zeros yield an error.</li>
 <li>Not-a-number (NaN) values will be serialized to <code>null</code>.</li>
 </ul>
 <h4>Limits</h4>
-<p><a href="http://rfc7159.net/rfc7159">RFC 7159</a> specifies: </p><blockquote class="doxtable">
-<p>An implementation may set limits on the range and precision of numbers. </p>
+<p class=""><a href="http://rfc7159.net/rfc7159">RFC 7159</a> specifies: </p><blockquote class="doxtable">
+<p class="">An implementation may set limits on the range and precision of numbers. </p>
 </blockquote>
-<p>When the default type is used, the maximal integer number that can be stored is <code>18446744073709551615</code> (UINT64_MAX) and the minimal integer number that can be stored is <code>0</code>. Integer numbers that are out of range will yield over/underflow when used in a constructor. During deserialization, too large or small integer numbers will be automatically be stored as <a class="el" href="classnlohmann_1_1basic__json_a98e611d67b7bd75307de99c9358ab2dc.html#a98e611d67b7bd75307de99c9358ab2dc">number_integer_t</a> or <a class="el" href="classnlohmann_1_1basic__json_a88d6103cb3620410b35200ee8e313d97.html#a88d6103cb3620410b35200ee8e313d97">number_float_t</a>.</p>
-<p><a href="http://rfc7159.net/rfc7159">RFC 7159</a> further states: </p><blockquote class="doxtable">
-<p>Note that when such software is used, numbers that are integers and are in the range <img class="formulaInl" alt="$[-2^{53}+1, 2^{53}-1]$" src="form_0.png"/> are interoperable in the sense that implementations will agree exactly on their numeric values. </p>
+<p class="">When the default type is used, the maximal integer number that can be stored is <code>18446744073709551615</code> (UINT64_MAX) and the minimal integer number that can be stored is <code>0</code>. Integer numbers that are out of range will yield over/underflow when used in a constructor. During deserialization, too large or small integer numbers will be automatically be stored as <a class="el" href="classnlohmann_1_1basic__json_a98e611d67b7bd75307de99c9358ab2dc.html#a98e611d67b7bd75307de99c9358ab2dc">number_integer_t</a> or <a class="el" href="classnlohmann_1_1basic__json_a88d6103cb3620410b35200ee8e313d97.html#a88d6103cb3620410b35200ee8e313d97">number_float_t</a>.</p>
+<p class=""><a href="http://rfc7159.net/rfc7159">RFC 7159</a> further states: </p><blockquote class="doxtable">
+<p class="">Note that when such software is used, numbers that are integers and are in the range <img class="formulaInl" alt="$[-2^{53}+1, 2^{53}-1]$" src="form_0.png"/> are interoperable in the sense that implementations will agree exactly on their numeric values. </p>
 </blockquote>
-<p>As this range is a subrange (when considered in conjunction with the number_integer_t type) of the exactly supported range [0, UINT64_MAX], this class's integer type is interoperable.</p>
+<p class="">As this range is a subrange (when considered in conjunction with the number_integer_t type) of the exactly supported range [0, UINT64_MAX], this class's integer type is interoperable.</p>
 <h4>Storage</h4>
-<p>Integer number values are stored directly inside a <a class="el" href="classnlohmann_1_1basic__json.html">basic_json</a> type.</p>
+<p class="">Integer number values are stored directly inside a <a class="el" href="classnlohmann_1_1basic__json.html">basic_json</a> type.</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classnlohmann_1_1basic__json_a88d6103cb3620410b35200ee8e313d97.html#a88d6103cb3620410b35200ee8e313d97">number_float_t</a> &ndash; type for number values (floating-point) </dd>
 <dd>
 <a class="el" href="classnlohmann_1_1basic__json_a98e611d67b7bd75307de99c9358ab2dc.html#a98e611d67b7bd75307de99c9358ab2dc">number_integer_t</a> &ndash; type for number values (integer)</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>version 2.0.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l07943">7943</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l07988">7988</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -311,7 +313,7 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 29 2017 20:15:04 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 5 2018 18:35:33 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

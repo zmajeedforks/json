@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JSON for Modern C++: nlohmann::basic_json::rend</title>
+<title>JSON for Modern C++: nlohmann::basic_json::items</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -161,7 +161,7 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html#a69b596a4a6683b362095c9a139637396">is_string</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html#a9f68a0af820c3ced7f9d17851ce4c22d">is_structured</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a0b213d6bb7e70201b6b980c30eeffac3.html#a0b213d6bb7e70201b6b980c30eeffac3">items</a></td></tr>
-          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0">items</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0">items</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a099316232c76c034030a38faa6e34dca.html#a099316232c76c034030a38faa6e34dca">iterator</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a3a17532d74ceddffb032cf03b760f5be.html#a3a17532d74ceddffb032cf03b760f5be">iterator_wrapper</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7055d04b1b766c64dcedc8799d7c1e1b.html#a7055d04b1b766c64dcedc8799d7c1e1b">iterator_wrapper</a></td></tr>
@@ -229,7 +229,7 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a1ef93e2006dbe52667294f5ef38b0b10.html#a1ef93e2006dbe52667294f5ef38b0b10">rbegin</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a515e7618392317dbf4b72d3e18bf2ab2.html#a515e7618392317dbf4b72d3e18bf2ab2">rbegin</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ac6a5eddd156c776ac75ff54cfe54a5bc.html#ac6a5eddd156c776ac75ff54cfe54a5bc">reference</a></td></tr>
-          <tr><td class="navtab"><a class="qindexHL" href="classnlohmann_1_1basic__json_ac77aed0925d447744676725ab0b6d535.html#ac77aed0925d447744676725ab0b6d535">rend</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ac77aed0925d447744676725ab0b6d535.html#ac77aed0925d447744676725ab0b6d535">rend</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a4f73d4cee67ea328d785979c22af0ae1.html#a4f73d4cee67ea328d785979c22af0ae1">rend</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ac223d5560c2b05a208c88de67376c5f2.html#ac223d5560c2b05a208c88de67376c5f2">reverse_iterator</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a25e27ad0c6d53c01871c5485e1f75b96.html#a25e27ad0c6d53c01871c5485e1f75b96">size</a></td></tr>
@@ -262,8 +262,8 @@ $(function() {
       </div>
    </td>
    <td valign="top" class="mempage">
-<a id="ac77aed0925d447744676725ab0b6d535"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac77aed0925d447744676725ab0b6d535">&#9670;&nbsp;</a></span>rend() <span class="overload">[1/2]</span></h2>
+<a id="a56c95cb55109d918ef1e21457bd6beb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56c95cb55109d918ef1e21457bd6beb0">&#9670;&nbsp;</a></span>items() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,44 +274,38 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classnlohmann_1_1basic__json_ac223d5560c2b05a208c88de67376c5f2.html#ac223d5560c2b05a208c88de67376c5f2">reverse_iterator</a> <a class="el" href="classnlohmann_1_1basic__json.html">nlohmann::basic_json</a>::rend </td>
+          <td class="memname">iteration_proxy&lt;<a class="el" href="classnlohmann_1_1basic__json_a41a70cf9993951836d129bb1c2b3126a.html#a41a70cf9993951836d129bb1c2b3126a">const_iterator</a>&gt; <a class="el" href="classnlohmann_1_1basic__json.html">nlohmann::basic_json</a>::items </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p class="">Returns an iterator to the reverse-end; that is, one before the first element.</p>
-<div class="image">
-<object type="image/svg+xml" data="range-rbegin-rend.svg">range-rbegin-rend.svg</object>
-<div class="caption">
-Illustration from cppreference.com</div></div>
- <dl class="section user"><dt>Complexity</dt><dd>Constant.</dd></dl>
-<dl class="section user"><dt>Requirements</dt><dd>This function helps <code>basic_json</code> satisfying the <a href="http://en.cppreference.com/w/cpp/concept/ReversibleContainer">ReversibleContainer</a> requirements:<ul>
-<li>The complexity is constant.</li>
-<li>Has the semantics of <code>reverse_iterator(begin())</code>.</li>
-</ul>
-</dd></dl>
-<dl class="section user"><dt>Example</dt><dd>The following code shows an example for <code>rend()</code>. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;json.hpp&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// create an array value</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> <a class="code" href="classnlohmann_1_1basic__json_aa80485befaffcadaa39965494e0b4d2e.html#aa80485befaffcadaa39965494e0b4d2e">array</a> = {1, 2, 3, 4, 5};</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// get an iterator to the reverse-end</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="classnlohmann_1_1basic__json_ac223d5560c2b05a208c88de67376c5f2.html#ac223d5560c2b05a208c88de67376c5f2">json::reverse_iterator</a> it = <a class="code" href="classnlohmann_1_1basic__json_aa80485befaffcadaa39965494e0b4d2e.html#aa80485befaffcadaa39965494e0b4d2e">array</a>.<a class="code" href="classnlohmann_1_1basic__json_ac77aed0925d447744676725ab0b6d535.html#ac77aed0925d447744676725ab0b6d535">rend</a>();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="comment">// increment the iterator to point to the first element</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    --it;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">// serialize the element that the iterator points to</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    std::cout &lt;&lt; *it &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div><div class="ttc" id="classnlohmann_1_1basic__json_aa80485befaffcadaa39965494e0b4d2e_html_aa80485befaffcadaa39965494e0b4d2e"><div class="ttname"><a href="classnlohmann_1_1basic__json_aa80485befaffcadaa39965494e0b4d2e.html#aa80485befaffcadaa39965494e0b4d2e">nlohmann::basic_json::array</a></div><div class="ttdeci">static basic_json array(initializer_list_t init={})</div><div class="ttdoc">explicitly create an array from an initializer list </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l08692">json.hpp:8692</a></div></div>
-<div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l15082">json.hpp:15082</a></div></div>
-<div class="ttc" id="classnlohmann_1_1basic__json_ac223d5560c2b05a208c88de67376c5f2_html_ac223d5560c2b05a208c88de67376c5f2"><div class="ttname"><a href="classnlohmann_1_1basic__json_ac223d5560c2b05a208c88de67376c5f2.html#ac223d5560c2b05a208c88de67376c5f2">nlohmann::basic_json::reverse_iterator</a></div><div class="ttdeci">json_reverse_iterator&lt; typename basic_json::iterator &gt; reverse_iterator</div><div class="ttdoc">a reverse iterator for a basic_json container </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l07516">json.hpp:7516</a></div></div>
-<div class="ttc" id="classnlohmann_1_1basic__json_ac77aed0925d447744676725ab0b6d535_html_ac77aed0925d447744676725ab0b6d535"><div class="ttname"><a href="classnlohmann_1_1basic__json_ac77aed0925d447744676725ab0b6d535.html#ac77aed0925d447744676725ab0b6d535">nlohmann::basic_json::rend</a></div><div class="ttdeci">reverse_iterator rend() noexcept</div><div class="ttdoc">returns an iterator to the reverse-end </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l11625">json.hpp:11625</a></div></div>
+<p class="">This function allows to access iterator::key() and iterator::value() during range-based for loops. In these loops, a reference to the JSON values is returned, so there is no access to the underlying iterator.</p>
+<p class="">For loop without <code>items()</code> function:</p>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> it = j_object.begin(); it != j_object.end(); ++it)</div><div class="line">{</div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;key: &quot;</span> &lt;&lt; it.key() &lt;&lt; <span class="stringliteral">&quot;, value:&quot;</span> &lt;&lt; it.value() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line">}</div></div><!-- fragment --><p class="">Range-based for loop without <code>items()</code> function:</p>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> it : j_object)</div><div class="line">{</div><div class="line">    <span class="comment">// &quot;it&quot; is of type json::reference and has no key() member</span></div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;value: &quot;</span> &lt;&lt; it &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line">}</div></div><!-- fragment --><p class="">Range-based for loop with <code>items()</code> function:</p>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> it : j_object.items())</div><div class="line">{</div><div class="line">    std::cout &lt;&lt; <span class="stringliteral">&quot;key: &quot;</span> &lt;&lt; it.key() &lt;&lt; <span class="stringliteral">&quot;, value:&quot;</span> &lt;&lt; it.value() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line">}</div></div><!-- fragment --><dl class="section note"><dt>Note</dt><dd>When iterating over an array, <code>key()</code> will return the index of the element as string (see example).</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>iteration proxy object wrapping <em>ref</em> with an interface to use in range-based for loops</dd></dl>
+<dl class="section user"><dt>Example</dt><dd>The following code shows how the function is used. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;json.hpp&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// create JSON values</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> j_object = {{<span class="stringliteral">&quot;one&quot;</span>, 1}, {<span class="stringliteral">&quot;two&quot;</span>, 2}};</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> j_array = {1, 2, 4, 8, 16};</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// example for an object</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; x : j_object.items())</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;key: &quot;</span> &lt;&lt; x.key() &lt;&lt; <span class="stringliteral">&quot;, value: &quot;</span> &lt;&lt; x.value() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">// example for an array</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; x : j_array.items())</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        std::cout &lt;&lt; <span class="stringliteral">&quot;key: &quot;</span> &lt;&lt; x.key() &lt;&lt; <span class="stringliteral">&quot;, value: &quot;</span> &lt;&lt; x.value() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l15082">json.hpp:15082</a></div></div>
 </div><!-- fragment --> <br />
- Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/bwTPFmGISMU3mBoH"><b>online</b></a>): <pre class="fragment">1
-</pre> The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/rend.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isrc doc/examples/rend.cpp -o rend </pre></dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classnlohmann_1_1basic__json_a5795b029dbf28e0cb2c7a439ec5d0a88.html#a5795b029dbf28e0cb2c7a439ec5d0a88">crend()</a> &ndash; returns a const reverse iterator to the end </dd>
-<dd>
-<a class="el" href="classnlohmann_1_1basic__json_a1ef93e2006dbe52667294f5ef38b0b10.html#a1ef93e2006dbe52667294f5ef38b0b10">rbegin()</a> &ndash; returns a reverse iterator to the beginning </dd>
-<dd>
-<a class="el" href="classnlohmann_1_1basic__json_a1e0769d22d54573f294da0e5c6abc9de.html#a1e0769d22d54573f294da0e5c6abc9de">crbegin()</a> &ndash; returns a const reverse iterator to the beginning</dd></dl>
-<dl class="section since"><dt>Since</dt><dd>version 1.0.0 </dd></dl>
+ Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/E7h0HOuw778Ski8S"><b>online</b></a>): <pre class="fragment">key: one, value: 1
+key: two, value: 2
+key: 0, value: 1
+key: 1, value: 2
+key: 2, value: 4
+key: 3, value: 8
+key: 4, value: 16
+</pre> The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/items.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isrc doc/examples/items.cpp -o items </pre></dd></dl>
+<dl class="section user"><dt>Exception safety</dt><dd>Strong guarantee: if an exception is thrown, there are no changes in the JSON value.</dd></dl>
+<dl class="section user"><dt>Complexity</dt><dd>Constant. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l11625">11625</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l11844">11844</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>

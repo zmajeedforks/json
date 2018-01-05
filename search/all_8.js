@@ -15,6 +15,7 @@ var searchData=
   ['is_5fprimitive',['is_primitive',['../classnlohmann_1_1basic__json_a6362b88718eb5c6d4fed6a61eed44b95.html#a6362b88718eb5c6d4fed6a61eed44b95',1,'nlohmann::basic_json']]],
   ['is_5fstring',['is_string',['../classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html#a69b596a4a6683b362095c9a139637396',1,'nlohmann::basic_json']]],
   ['is_5fstructured',['is_structured',['../classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html#a9f68a0af820c3ced7f9d17851ce4c22d',1,'nlohmann::basic_json']]],
+  ['items',['items',['../classnlohmann_1_1basic__json_a0b213d6bb7e70201b6b980c30eeffac3.html#a0b213d6bb7e70201b6b980c30eeffac3',1,'nlohmann::basic_json::items()'],['../classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0',1,'nlohmann::basic_json::items() const']]],
   ['iterator',['iterator',['../classnlohmann_1_1basic__json_a099316232c76c034030a38faa6e34dca.html#a099316232c76c034030a38faa6e34dca',1,'nlohmann::basic_json']]],
   ['iterator_5fwrapper',['iterator_wrapper',['../classnlohmann_1_1basic__json_a3a17532d74ceddffb032cf03b760f5be.html#a3a17532d74ceddffb032cf03b760f5be',1,'nlohmann::basic_json::iterator_wrapper(reference ref)'],['../classnlohmann_1_1basic__json_a7055d04b1b766c64dcedc8799d7c1e1b.html#a7055d04b1b766c64dcedc8799d7c1e1b',1,'nlohmann::basic_json::iterator_wrapper(const_reference ref)']]]
 ];

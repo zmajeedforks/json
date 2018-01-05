@@ -62,12 +62,12 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
 <div class="title">JSON for Modern C++ </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>These pages contain the API documentation of JSON for Modern C++, a C++11 header-only JSON class.</p>
+<div class="textblock"><p class="">These pages contain the API documentation of JSON for Modern C++, a C++11 header-only JSON class.</p>
 <h1>Contents</h1>
 <ul>
 <li><a class="el" href="classnlohmann_1_1basic__json.html"><code>basic_json</code> class </a></li>
@@ -115,8 +115,8 @@ $(function() {
 </li>
 </ul>
 <h1>Container function overview</h1>
-<p>The container functions known from STL have been extended to support the different value types from JSON. However, not all functions can be applied to all value types. Note that the signature of some functions differ between the types; for instance, <code>at</code> may be called with either a string to address a key in an object or with an integer to address a value in an array.</p>
-<p>Note that this table only lists those exceptions thrown due to the type. For instance, the <a class="el" href="classnlohmann_1_1basic__json_a93403e803947b86f4da2d1fb3345cf2c.html#a93403e803947b86f4da2d1fb3345cf2c"><code>at</code> </a> function will always throw a <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> exception when called for a string type. When called for an array, it <em>may</em> throw an <a class="el" href="classnlohmann_1_1basic__json_a28f7c2f087274a0012eb7a2333ee1580.html#a28f7c2f087274a0012eb7a2333ee1580"><code>json::out_of_range</code> </a> exception if the passed index is invalid.</p>
+<p class="">The container functions known from STL have been extended to support the different value types from JSON. However, not all functions can be applied to all value types. Note that the signature of some functions differ between the types; for instance, <code>at</code> may be called with either a string to address a key in an object or with an integer to address a value in an array.</p>
+<p class="">Note that this table only lists those exceptions thrown due to the type. For instance, the <a class="el" href="classnlohmann_1_1basic__json_a93403e803947b86f4da2d1fb3345cf2c.html#a93403e803947b86f4da2d1fb3345cf2c"><code>at</code> </a> function will always throw a <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> exception when called for a string type. When called for an array, it <em>may</em> throw an <a class="el" href="classnlohmann_1_1basic__json_a28f7c2f087274a0012eb7a2333ee1580.html#a28f7c2f087274a0012eb7a2333ee1580"><code>json::out_of_range</code> </a> exception if the passed index is invalid.</p>
 <table class="doxtable">
 <tr>
 <th rowspan="2">group </th><th rowspan="2">function </th><th colspan="6">JSON value type  </th></tr>
@@ -179,10 +179,11 @@ access </td><td><code>at</code> </td><td class="ok_green"><a class="el" href="cl
 <dl class="section author"><dt>Author</dt><dd><a href="http://nlohmann.me">Niels Lohmann</a> </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://github.com/nlohmann/json">https://github.com/nlohmann/json</a> to download the source code</dd></dl>
 <dl class="section version"><dt>Version</dt><dd>3.0.1 </dd></dl>
-</div></div><!-- contents -->
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 29 2017 20:15:05 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 5 2018 18:35:34 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

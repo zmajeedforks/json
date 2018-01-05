@@ -160,6 +160,8 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6362b88718eb5c6d4fed6a61eed44b95.html#a6362b88718eb5c6d4fed6a61eed44b95">is_primitive</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html#a69b596a4a6683b362095c9a139637396">is_string</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html#a9f68a0af820c3ced7f9d17851ce4c22d">is_structured</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a0b213d6bb7e70201b6b980c30eeffac3.html#a0b213d6bb7e70201b6b980c30eeffac3">items</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0">items</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a099316232c76c034030a38faa6e34dca.html#a099316232c76c034030a38faa6e34dca">iterator</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a3a17532d74ceddffb032cf03b760f5be.html#a3a17532d74ceddffb032cf03b760f5be">iterator_wrapper</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7055d04b1b766c64dcedc8799d7c1e1b.html#a7055d04b1b766c64dcedc8799d7c1e1b">iterator_wrapper</a></td></tr>
@@ -284,10 +286,10 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This function returns a JSON object with information about the library, including the version number and information on the platform and compiler.</p>
+<p class="">This function returns a JSON object with information about the library, including the version number and information on the platform and compiler.</p>
 <dl class="section return"><dt>Returns</dt><dd>JSON object holding version information <table class="markdownTable">
 <tr class="markdownTableHead">
-<th class="markdownTableHeadNone">key  </th><th class="markdownTableHeadNone">description &mdash;   </th></tr>
+<th class="markdownTableHeadNone">key  </th><th class="markdownTableHeadNone">description   </th></tr>
 <tr class="markdownTableBody" class="markdownTableRowOdd">
 <td class="markdownTableBodyNone"><code>compiler</code>  </td><td class="markdownTableBodyNone">Information on the used compiler. It is an object with the following keys: <code>c++</code> (the used C++ standard), <code>family</code> (the compiler family; possible values are <code>clang</code>, <code>icc</code>, <code>gcc</code>, <code>ilecpp</code>, <code>msvc</code>, <code>pgcpp</code>, <code>sunpro</code>, and <code>unknown</code>), and <code>version</code> (the compiler version).   </td></tr>
 <tr class="markdownTableBody" class="markdownTableRowEven">
@@ -302,12 +304,10 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
 <td class="markdownTableBodyNone"><code>version</code>  </td><td class="markdownTableBodyNone">The version of the library. It is an object with the following keys: <code>major</code>, <code>minor</code>, and <code>patch</code> as defined by <a href="http://semver.org">Semantic Versioning</a>, and <code>string</code> (the version string).   </td></tr>
 </table>
 </dd></dl>
-<dl class="section user"><dt>Example The following code shows an example output of the meta()</dt><dd>function. <br />
- <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;json.hpp&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// call meta()</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    std::cout &lt;&lt; std::setw(4) &lt;&lt; <a class="code" href="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab.html#aef6d0eeccee7c5c7e1317c2ea1607fab">json::meta</a>() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l14379">json.hpp:14379</a></div></div>
-<div class="ttc" id="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab_html_aef6d0eeccee7c5c7e1317c2ea1607fab"><div class="ttname"><a href="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab.html#aef6d0eeccee7c5c7e1317c2ea1607fab">nlohmann::basic_json::meta</a></div><div class="ttdeci">static basic_json meta()</div><div class="ttdoc">returns version information on the library </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l07518">json.hpp:7518</a></div></div>
+<dl class="section user"><dt>Example</dt><dd>The following code shows an example output of the <code>meta()</code> function. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;json.hpp&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// call meta()</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    std::cout &lt;&lt; std::setw(4) &lt;&lt; <a class="code" href="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab.html#aef6d0eeccee7c5c7e1317c2ea1607fab">json::meta</a>() &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l15082">json.hpp:15082</a></div></div>
+<div class="ttc" id="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab_html_aef6d0eeccee7c5c7e1317c2ea1607fab"><div class="ttname"><a href="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab.html#aef6d0eeccee7c5c7e1317c2ea1607fab">nlohmann::basic_json::meta</a></div><div class="ttdeci">static basic_json meta()</div><div class="ttdoc">returns version information on the library </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l07563">json.hpp:7563</a></div></div>
 </div><!-- fragment --> <br />
- Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/mtnyQGVjmAoHVvaP"><b>online</b></a>):<br />
- <pre class="fragment">{
+ Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/mtnyQGVjmAoHVvaP"><b>online</b></a>): <pre class="fragment">{
     "compiler": {
         "c++": "201103",
         "family": "clang",
@@ -324,13 +324,12 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
         "string": "3.0.1"
     }
 }
-</pre> <br />
- The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/meta.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isrc doc/examples/meta.cpp -o meta </pre></dd></dl>
-<dl class="section user"><dt>Exception safety Strong guarantee: if an exception is thrown, there are no</dt><dd>changes to any JSON value.</dd></dl>
-<dl class="section user"><dt>Complexity Constant.</dt><dd></dd></dl>
+</pre> The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/meta.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isrc doc/examples/meta.cpp -o meta </pre></dd></dl>
+<dl class="section user"><dt>Exception safety</dt><dd>Strong guarantee: if an exception is thrown, there are no changes to any JSON value.</dd></dl>
+<dl class="section user"><dt>Complexity</dt><dd>Constant.</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>2.1.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l07518">7518</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l07563">7563</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -340,7 +339,7 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 29 2017 20:15:04 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 5 2018 18:35:33 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

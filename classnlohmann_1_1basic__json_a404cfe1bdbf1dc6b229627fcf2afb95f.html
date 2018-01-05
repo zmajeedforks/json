@@ -160,6 +160,8 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6362b88718eb5c6d4fed6a61eed44b95.html#a6362b88718eb5c6d4fed6a61eed44b95">is_primitive</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html#a69b596a4a6683b362095c9a139637396">is_string</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html#a9f68a0af820c3ced7f9d17851ce4c22d">is_structured</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a0b213d6bb7e70201b6b980c30eeffac3.html#a0b213d6bb7e70201b6b980c30eeffac3">items</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a56c95cb55109d918ef1e21457bd6beb0.html#a56c95cb55109d918ef1e21457bd6beb0">items</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a099316232c76c034030a38faa6e34dca.html#a099316232c76c034030a38faa6e34dca">iterator</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a3a17532d74ceddffb032cf03b760f5be.html#a3a17532d74ceddffb032cf03b760f5be">iterator_wrapper</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7055d04b1b766c64dcedc8799d7c1e1b.html#a7055d04b1b766c64dcedc8799d7c1e1b">iterator_wrapper</a></td></tr>
@@ -301,7 +303,7 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Inserts elements from range <code>[first, last)</code> before iterator <em>pos</em>.</p>
+<p class="">Inserts elements from range <code>[first, last)</code> before iterator <em>pos</em>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>iterator before which the content will be inserted; may be the end() iterator </td></tr>
@@ -316,16 +318,20 @@ template&lt;template&lt; typename, typename, typename... &gt; class ObjectType =
     <tr><td class="paramname">invalid_iterator.202</td><td>if <em>pos</em> is not an iterator of *this; example: <code>"iterator does not fit current value"</code> </td></tr>
     <tr><td class="paramname">invalid_iterator.210</td><td>if <em>first</em> and <em>last</em> do not belong to the same JSON value; example: <code>"iterators do not fit"</code> </td></tr>
     <tr><td class="paramname">invalid_iterator.211</td><td>if <em>first</em> or <em>last</em> are iterators into container for which insert is called; example: <code>"passed iterators may not
-belong to container"</code></td></tr>
+   belong to container"</code></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>iterator pointing to the first element inserted, or <em>pos</em> if <code>first==last</code></dd></dl>
-<dl class="section user"><dt>Complexity Linear in std::distance(first, last) plus linear in the</dt><dd>distance between <em>pos</em> and end of the container.</dd></dl>
-<dl class="section user"><dt>Example The example shows how insert() is used.   insert__range.cpp  Output (play with this example  insert__range.link):  insert__range.output  The example code above can be translated withg++ -std=c++11 -Isrc doc/examples/insert__range.cpp -o insert__range </dt><dd></dd></dl>
+<dl class="section user"><dt>Complexity</dt><dd>Linear in <code>std::distance(first, last)</code> plus linear in the distance between <em>pos</em> and end of the container.</dd></dl>
+<dl class="section user"><dt>Example</dt><dd>The example shows how <code>insert()</code> is used. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;json.hpp&quot;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// create a JSON array</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> v = {1, 2, 3, 4};</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// create a JSON array to copy values from</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> v2 = {<span class="stringliteral">&quot;one&quot;</span>, <span class="stringliteral">&quot;two&quot;</span>, <span class="stringliteral">&quot;three&quot;</span>, <span class="stringliteral">&quot;four&quot;</span>};</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="comment">// insert range from v2 before the end of array v</span></div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">auto</span> new_pos = v.insert(v.end(), v2.begin(), v2.end());</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">// output new array and result of insert call</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    std::cout &lt;&lt; *new_pos &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::cout &lt;&lt; v &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class </div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l15082">json.hpp:15082</a></div></div>
+</div><!-- fragment --> <br />
+ Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/EWKlbEm2NczIX0Kt"><b>online</b></a>): <pre class="fragment">"one"
+[1,2,3,4,"one","two","three","four"]
+</pre> The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/insert__range.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isrc doc/examples/insert__range.cpp -o insert__range </pre></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>version 1.0.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l12113">12113</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l12640">12640</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -335,7 +341,7 @@ belong to container"</code></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Dec 29 2017 20:15:04 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Jan 5 2018 18:35:33 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
