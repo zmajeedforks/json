@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['deprecated_20list',['Deprecated List',['../deprecated.html',1,'']]]
+  ['binary_20formats',['Binary formats',['../md_binary_formats.html',1,'']]]
 ];
