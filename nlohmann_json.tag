@@ -322,6 +322,13 @@
     <member kind="function">
       <type></type>
       <name>basic_json</name>
+      <anchorfile>classnlohmann_1_1basic__json_aa16dc469c842fa8a0aaf6f5a95c46bb3.html</anchorfile>
+      <anchor>aa16dc469c842fa8a0aaf6f5a95c46bb3</anchor>
+      <arglist>(const BasicJsonType &amp;val)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_ab5dfd9a2b2663b219641cb7fe59b6da2.html</anchorfile>
       <anchor>ab5dfd9a2b2663b219641cb7fe59b6da2</anchor>
       <arglist>(initializer_list_t init, bool type_deduction=true, value_t manual_type=value_t::array)</arglist>
@@ -478,6 +485,13 @@
       <name>get</name>
       <anchorfile>classnlohmann_1_1basic__json_a6b187a22994c12c8cae0dd5ee99dc85e.html</anchorfile>
       <anchor>a6b187a22994c12c8cae0dd5ee99dc85e</anchor>
+      <arglist>() const</arglist>
+    </member>
+    <member kind="function">
+      <type>BasicJsonType</type>
+      <name>get</name>
+      <anchorfile>classnlohmann_1_1basic__json_a30ff63a4d671eb14f652356cd934320c.html</anchorfile>
+      <anchor>a30ff63a4d671eb14f652356cd934320c</anchor>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -1038,7 +1052,6 @@
       <name>operator!=</name>
       <anchorfile>classnlohmann_1_1basic__json_a6e2e21da48f5d9471716cd868a068327.html</anchorfile>
       <anchor>a6e2e21da48f5d9471716cd868a068327</anchor>
-      <clangid>c:@N@nlohmann@F@operator&lt;&lt;#&amp;&gt;@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json9t0.0t0.1t0.2t0.3t0.4t0.5t0.6t0.7t0.8#&amp;$@N@std@N@__1@S@basic_istream&gt;#C#$@N@std@N@__1@S@char_traits&gt;#C#</clangid>
       <arglist>(const_reference lhs, const_reference rhs) noexcept</arglist>
     </member>
     <member kind="friend">

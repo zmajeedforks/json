@@ -551,6 +551,18 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_aa16dc469c842fa8a0aaf6f5a95c46bb3.html</Path>
+    <Anchor>aa16dc469c842fa8a0aaf6f5a95c46bb3</Anchor>
+    <Abstract>create a JSON value from an existing one </Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>basic_json</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
     <Path>classnlohmann_1_1basic__json_ab5dfd9a2b2663b219641cb7fe59b6da2.html</Path>
     <Anchor>ab5dfd9a2b2663b219641cb7fe59b6da2</Anchor>
     <Abstract>create a container (array or object) from an initializer list </Abstract>
@@ -817,6 +829,18 @@
     </TokenIdentifier>
     <Path>classnlohmann_1_1basic__json_a6b187a22994c12c8cae0dd5ee99dc85e.html</Path>
     <Anchor>a6b187a22994c12c8cae0dd5ee99dc85e</Anchor>
+    <Abstract>get special-case overload </Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_a30ff63a4d671eb14f652356cd934320c.html</Path>
+    <Anchor>a30ff63a4d671eb14f652356cd934320c</Anchor>
     <Abstract>get special-case overload </Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
