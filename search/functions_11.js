@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_7ebasic_5fjson',['~basic_json',['../classnlohmann_1_1basic__json_aba01953d5d90e676d504863b8d9fdde5.html#aba01953d5d90e676d504863b8d9fdde5',1,'nlohmann::basic_json']]]
+  ['unflatten',['unflatten',['../classnlohmann_1_1basic__json_a74fa3ab2003f2f6f2b69deaafed9126d.html#a74fa3ab2003f2f6f2b69deaafed9126d',1,'nlohmann::basic_json']]],
+  ['update',['update',['../classnlohmann_1_1basic__json_a1cfa9ae5e7c2434cab4cfe69bffffe11.html#a1cfa9ae5e7c2434cab4cfe69bffffe11',1,'nlohmann::basic_json::update(const_reference j)'],['../classnlohmann_1_1basic__json_a27921dafadb3bbefd180235ec763e3ea.html#a27921dafadb3bbefd180235ec763e3ea',1,'nlohmann::basic_json::update(const_iterator first, const_iterator last)']]]
 ];

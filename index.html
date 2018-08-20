@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">JSON for Modern C++
-   &#160;<span id="projectnumber">3.1.2</span>
+   &#160;<span id="projectnumber">3.2.0</span>
    </div>
   </td>
  </tr>
@@ -102,15 +102,17 @@ $(function() {
 </ul>
 </li>
 <li>deserialization / parsing<ul>
-<li><a class="el" href="classnlohmann_1_1basic__json_aa9676414f2e36383c4b181fe856aa3c0.html#aa9676414f2e36383c4b181fe856aa3c0">parse </a> parse from string</li>
+<li><a class="el" href="classnlohmann_1_1basic__json_a5a0339361f3282cb8fd2f9ede6e17d72.html#a5a0339361f3282cb8fd2f9ede6e17d72">parse </a> parse from input (string, file, etc.) and return JSON value</li>
+<li><a class="el" href="classnlohmann_1_1basic__json_a8a3dd150c2d1f0df3502d937de0871db.html#a8a3dd150c2d1f0df3502d937de0871db">sax_parse </a> parse from input (string, file, etc.) and generate SAX events</li>
 <li><a class="el" href="classnlohmann_1_1basic__json_aaf363408931d76472ded14017e59c9e8.html#aaf363408931d76472ded14017e59c9e8">operator&gt;&gt; </a> parse from stream</li>
-<li><a class="el" href="classnlohmann_1_1basic__json_a776868dd5f9892564c1f6c786d1f80a3.html#a776868dd5f9892564c1f6c786d1f80a3">accept </a> check for syntax errors without parsing</li>
+<li><a class="el" href="classnlohmann_1_1basic__json_a875585b0cb6133902066daccd7c9d420.html#a875585b0cb6133902066daccd7c9d420">accept </a> check for syntax errors without parsing</li>
+<li><a class="el" href="structnlohmann_1_1json__sax.html">SAX interface </a> define a user-defined SAX event consumer</li>
 </ul>
 </li>
 <li><a class="el" href="md_binary_formats.html">binary formats</a>:<ul>
-<li>CBOR: <a class="el" href="classnlohmann_1_1basic__json_aa9be366b887378bb10c0f1ab510c2f0c.html#aa9be366b887378bb10c0f1ab510c2f0c">from_cbor </a> / <a class="el" href="classnlohmann_1_1basic__json_a2566783e190dec524bf3445b322873b8.html#a2566783e190dec524bf3445b322873b8">to_cbor </a></li>
-<li>MessagePack: <a class="el" href="classnlohmann_1_1basic__json_aab804530006701b136ef9a0bc961434b.html#aab804530006701b136ef9a0bc961434b">from_msgpack </a> / <a class="el" href="classnlohmann_1_1basic__json_a09ca1dc273d226afe0ca83a9d7438d9c.html#a09ca1dc273d226afe0ca83a9d7438d9c">to_msgpack </a></li>
-<li>UBJSON: <a class="el" href="classnlohmann_1_1basic__json_afc590e292274a032cb0142d27778738e.html#afc590e292274a032cb0142d27778738e">from_ubjson </a> / <a class="el" href="classnlohmann_1_1basic__json_ae1ece6c2059114eac10873f13ef19185.html#ae1ece6c2059114eac10873f13ef19185">to_ubjson </a></li>
+<li>CBOR: <a class="el" href="classnlohmann_1_1basic__json_a3d4b91e391612285bf834569edcc58e8.html#a3d4b91e391612285bf834569edcc58e8">from_cbor </a> / <a class="el" href="classnlohmann_1_1basic__json_a2566783e190dec524bf3445b322873b8.html#a2566783e190dec524bf3445b322873b8">to_cbor </a></li>
+<li>MessagePack: <a class="el" href="classnlohmann_1_1basic__json_a7e724c9d881b953a5f1bff9fb6648d21.html#a7e724c9d881b953a5f1bff9fb6648d21">from_msgpack </a> / <a class="el" href="classnlohmann_1_1basic__json_a09ca1dc273d226afe0ca83a9d7438d9c.html#a09ca1dc273d226afe0ca83a9d7438d9c">to_msgpack </a></li>
+<li>UBJSON: <a class="el" href="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a.html#a98ef289216564da59a78903a5cabfc8a">from_ubjson </a> / <a class="el" href="classnlohmann_1_1basic__json_ae1ece6c2059114eac10873f13ef19185.html#ae1ece6c2059114eac10873f13ef19185">to_ubjson </a></li>
 </ul>
 </li>
 </ul>
@@ -193,12 +195,12 @@ access </td><td><code>at</code> </td><td class="ok_green"><a class="el" href="cl
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright &copy; 2013-2018 Niels Lohmann. The code is licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</dd></dl>
 <dl class="section author"><dt>Author</dt><dd><a href="http://nlohmann.me">Niels Lohmann</a> </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://github.com/nlohmann/json">https://github.com/nlohmann/json</a> to download the source code</dd></dl>
-<dl class="section version"><dt>Version</dt><dd>3.1.2 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>3.2.0 </dd></dl>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 14 2018 21:43:14 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 20 2018 19:32:18 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
