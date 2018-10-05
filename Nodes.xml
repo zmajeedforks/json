@@ -53,13 +53,13 @@
               <Subnodes>
                <Node>
                 <Name>from_json</Name>
-                <Path>structnlohmann_1_1adl__serializer_ab39cad07c1a2bf4414d6cae5215b4e7a.html</Path>
-                <Anchor>ab39cad07c1a2bf4414d6cae5215b4e7a</Anchor>
+                <Path>structnlohmann_1_1adl__serializer_a2c544585b8b1828a0f1eecd831d0496e.html</Path>
+                <Anchor>a2c544585b8b1828a0f1eecd831d0496e</Anchor>
                </Node>
                <Node>
                 <Name>to_json</Name>
-                <Path>structnlohmann_1_1adl__serializer_adf8cd96afe6ab243b67392dfe35ace89.html</Path>
-                <Anchor>adf8cd96afe6ab243b67392dfe35ace89</Anchor>
+                <Path>structnlohmann_1_1adl__serializer_a01b867bd5dce5249d4f7433b8f27def6.html</Path>
+                <Anchor>a01b867bd5dce5249d4f7433b8f27def6</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -514,13 +514,13 @@
                </Node>
                <Node>
                 <Name>get</Name>
-                <Path>classnlohmann_1_1basic__json_a64135c19425f00b346d8ed63a23db334.html</Path>
-                <Anchor>a64135c19425f00b346d8ed63a23db334</Anchor>
+                <Path>classnlohmann_1_1basic__json_a4e8c9b67704826384d417cfd4b18a7bb.html</Path>
+                <Anchor>a4e8c9b67704826384d417cfd4b18a7bb</Anchor>
                </Node>
                <Node>
                 <Name>get</Name>
-                <Path>classnlohmann_1_1basic__json_a44a090c15a67b9f02e579b6e17ef0e1b.html</Path>
-                <Anchor>a44a090c15a67b9f02e579b6e17ef0e1b</Anchor>
+                <Path>classnlohmann_1_1basic__json_a5750dd9bd7bad23bc81d9173fda9a263.html</Path>
+                <Anchor>a5750dd9bd7bad23bc81d9173fda9a263</Anchor>
                </Node>
                <Node>
                 <Name>get_allocator</Name>
@@ -529,13 +529,13 @@
                </Node>
                <Node>
                 <Name>get_ptr</Name>
-                <Path>classnlohmann_1_1basic__json_aefa46bd2d96bb77a38d1c8b431eab44f.html</Path>
-                <Anchor>aefa46bd2d96bb77a38d1c8b431eab44f</Anchor>
+                <Path>classnlohmann_1_1basic__json_afb283ec92e108f9561a86427a609b87c.html</Path>
+                <Anchor>afb283ec92e108f9561a86427a609b87c</Anchor>
                </Node>
                <Node>
                 <Name>get_ptr</Name>
-                <Path>classnlohmann_1_1basic__json_a14abd48803a8d5447faf5f583fa8e2a1.html</Path>
-                <Anchor>a14abd48803a8d5447faf5f583fa8e2a1</Anchor>
+                <Path>classnlohmann_1_1basic__json_adc3f060acf24d0902aeed7dadec66a7d.html</Path>
+                <Anchor>adc3f060acf24d0902aeed7dadec66a7d</Anchor>
                </Node>
                <Node>
                 <Name>get_ref</Name>
@@ -546,6 +546,11 @@
                 <Name>get_ref</Name>
                 <Path>classnlohmann_1_1basic__json_ac382f3d2bc6a5d52d936e4e40593f03b.html</Path>
                 <Anchor>ac382f3d2bc6a5d52d936e4e40593f03b</Anchor>
+               </Node>
+               <Node>
+                <Name>get_to</Name>
+                <Path>classnlohmann_1_1basic__json_a8a3db7d78f74232d3a6fb8f1abf69709.html</Path>
+                <Anchor>a8a3db7d78f74232d3a6fb8f1abf69709</Anchor>
                </Node>
                <Node>
                 <Name>insert</Name>
@@ -576,6 +581,11 @@
                 <Name>insert</Name>
                 <Path>classnlohmann_1_1basic__json_a1b0a4e60d56f1fe80501ed941e122892.html</Path>
                 <Anchor>a1b0a4e60d56f1fe80501ed941e122892</Anchor>
+               </Node>
+               <Node>
+                <Name>insert_iterator</Name>
+                <Path>classnlohmann_1_1basic__json_a316663487f1d20c0cf349b23f9494bda.html</Path>
+                <Anchor>a316663487f1d20c0cf349b23f9494bda</Anchor>
                </Node>
                <Node>
                 <Name>is_array</Name>
@@ -1292,7 +1302,7 @@
              </Node>
              <Node>
               <Name>~</Name>
-              <Path>functions_0x7e.html</Path>
+              <Path>functions_~.html</Path>
              </Node>
             </Subnodes>
            </Node>
