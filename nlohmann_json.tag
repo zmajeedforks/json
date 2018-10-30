@@ -33,6 +33,13 @@
     <templarg>AllocatorType</templarg>
     <templarg>JSONSerializer</templarg>
     <member kind="typedef">
+      <type>detail::error_handler_t</type>
+      <name>error_handler_t</name>
+      <anchorfile>classnlohmann_1_1basic__json_ae56b6bfbb1f6d2f43611f2ada4f9e5f2.html</anchorfile>
+      <anchor>ae56b6bfbb1f6d2f43611f2ada4f9e5f2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="typedef">
       <type>std::initializer_list&lt; detail::json_ref&lt; basic_json &gt; &gt;</type>
       <name>initializer_list_t</name>
       <anchorfile>classnlohmann_1_1basic__json_ad70a098fbc01c53497db29d3b5b656a9.html</anchorfile>
@@ -376,10 +383,10 @@
       <arglist>(basic_json &amp;&amp;other) noexcept</arglist>
     </member>
     <member kind="function">
-      <type>reference &amp;</type>
+      <type>basic_json &amp;</type>
       <name>operator=</name>
-      <anchorfile>classnlohmann_1_1basic__json_aab256df8c5594ec693035822fa1e2904.html</anchorfile>
-      <anchor>aab256df8c5594ec693035822fa1e2904</anchor>
+      <anchorfile>classnlohmann_1_1basic__json_a849368ca71af3a93d576939d486f61c7.html</anchorfile>
+      <anchor>a849368ca71af3a93d576939d486f61c7</anchor>
       <arglist>(basic_json other) noexcept(std::is_nothrow_move_constructible&lt; value_t &gt;::value and std::is_nothrow_move_assignable&lt; value_t &gt;::value and std::is_nothrow_move_constructible&lt; json_value &gt;::value and std::is_nothrow_move_assignable&lt; json_value &gt;::value)</arglist>
     </member>
     <member kind="function">
@@ -392,9 +399,9 @@
     <member kind="function">
       <type>string_t</type>
       <name>dump</name>
-      <anchorfile>classnlohmann_1_1basic__json_a5adea76fedba9898d404fef8598aa663.html</anchorfile>
-      <anchor>a5adea76fedba9898d404fef8598aa663</anchor>
-      <arglist>(const int indent=-1, const char indent_char=&apos; &apos;, const bool ensure_ascii=false) const</arglist>
+      <anchorfile>classnlohmann_1_1basic__json_a50ec80b02d0f3f51130d4abb5d1cfdc5.html</anchorfile>
+      <anchor>a50ec80b02d0f3f51130d4abb5d1cfdc5</anchor>
+      <arglist>(const int indent=-1, const char indent_char=&apos; &apos;, const bool ensure_ascii=false, const error_handler_t error_handler=error_handler_t::strict) const</arglist>
     </member>
     <member kind="function">
       <type>constexpr value_t</type>
@@ -1314,6 +1321,27 @@
       <arglist>(const basic_json &amp;j, detail::output_adapter&lt; char &gt; o, const bool use_size=false, const bool use_type=false)</arglist>
     </member>
     <member kind="function" static="yes">
+      <type>static std::vector&lt; uint8_t &gt;</type>
+      <name>to_bson</name>
+      <anchorfile>classnlohmann_1_1basic__json_a8ca5dd4f18b59e7022b04fd9bf7f5176.html</anchorfile>
+      <anchor>a8ca5dd4f18b59e7022b04fd9bf7f5176</anchor>
+      <arglist>(const basic_json &amp;j)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>to_bson</name>
+      <anchorfile>classnlohmann_1_1basic__json_a51df13f73a970da95c3dcb3d47b0c2c4.html</anchorfile>
+      <anchor>a51df13f73a970da95c3dcb3d47b0c2c4</anchor>
+      <arglist>(const basic_json &amp;j, detail::output_adapter&lt; uint8_t &gt; o)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static void</type>
+      <name>to_bson</name>
+      <anchorfile>classnlohmann_1_1basic__json_aeb988f5b2148875ed1c9cb32bec156c6.html</anchorfile>
+      <anchor>aeb988f5b2148875ed1c9cb32bec156c6</anchor>
+      <arglist>(const basic_json &amp;j, detail::output_adapter&lt; char &gt; o)</arglist>
+    </member>
+    <member kind="function" static="yes">
       <type>static basic_json</type>
       <name>from_cbor</name>
       <anchorfile>classnlohmann_1_1basic__json_a3d4b91e391612285bf834569edcc58e8.html</anchorfile>
@@ -1353,6 +1381,20 @@
       <name>from_ubjson</name>
       <anchorfile>classnlohmann_1_1basic__json_aaaf355de7125b3cb48d59dba93e4adff.html</anchorfile>
       <anchor>aaaf355de7125b3cb48d59dba93e4adff</anchor>
+      <arglist>(A1 &amp;&amp;a1, A2 &amp;&amp;a2, const bool strict=true, const bool allow_exceptions=true)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static basic_json</type>
+      <name>from_bson</name>
+      <anchorfile>classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html</anchorfile>
+      <anchor>a58af1d4d20e1965a1c6679f6183d61f0</anchor>
+      <arglist>(detail::input_adapter &amp;&amp;i, const bool strict=true, const bool allow_exceptions=true)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static basic_json</type>
+      <name>from_bson</name>
+      <anchorfile>classnlohmann_1_1basic__json_a6d319d335e09dc9f4cb09a0d9d21d64d.html</anchorfile>
+      <anchor>a6d319d335e09dc9f4cb09a0d9d21d64d</anchor>
       <arglist>(A1 &amp;&amp;a1, A2 &amp;&amp;a2, const bool strict=true, const bool allow_exceptions=true)</arglist>
     </member>
     <member kind="function">
@@ -1451,9 +1493,9 @@
     <member kind="function">
       <type>std::string</type>
       <name>to_string</name>
-      <anchorfile>classnlohmann_1_1json__pointer_ad7d3a3a215db8fe0964e644a918dcccb.html</anchorfile>
-      <anchor>ad7d3a3a215db8fe0964e644a918dcccb</anchor>
-      <arglist>() const noexcept</arglist>
+      <anchorfile>classnlohmann_1_1json__pointer_a3d4b15d32d096e3776c5d2c773b524f5.html</anchorfile>
+      <anchor>a3d4b15d32d096e3776c5d2c773b524f5</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function" static="yes">
       <type>static int</type>

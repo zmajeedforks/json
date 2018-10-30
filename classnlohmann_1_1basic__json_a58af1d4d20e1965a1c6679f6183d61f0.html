@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>JSON for Modern C++: nlohmann::basic_json::operator=</title>
+<title>JSON for Modern C++: nlohmann::basic_json::from_bson</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">JSON for Modern C++
-   &#160;<span id="projectnumber">3.3.0</span>
+   &#160;<span id="projectnumber">3.4.0</span>
    </div>
   </td>
  </tr>
@@ -110,7 +110,7 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6275ed57bae6866cdf5db5370a7ad47c.html#a6275ed57bae6866cdf5db5370a7ad47c">detail::external_constructor</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a543bd5f7490de54c875b2c0912dc9a49.html#a543bd5f7490de54c875b2c0912dc9a49">diff</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_afe7c1303357e19cea9527af4e9a31d8f.html#afe7c1303357e19cea9527af4e9a31d8f">difference_type</a></td></tr>
-          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a5adea76fedba9898d404fef8598aa663.html#a5adea76fedba9898d404fef8598aa663">dump</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a50ec80b02d0f3f51130d4abb5d1cfdc5.html#a50ec80b02d0f3f51130d4abb5d1cfdc5">dump</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a5338e282d1d02bed389d852dd670d98d.html#a5338e282d1d02bed389d852dd670d98d">emplace</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_aacf5eed15a8b66fb1e88910707a5e229.html#aacf5eed15a8b66fb1e88910707a5e229">emplace_back</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a1a86d444bfeaa9518d2421aedd74444a.html#a1a86d444bfeaa9518d2421aedd74444a">empty</a></td></tr>
@@ -120,10 +120,13 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a4b3f7eb2d4625d95a51fbbdceb7c5f39.html#a4b3f7eb2d4625d95a51fbbdceb7c5f39">erase</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a2f8484d69c55d8f2a9697a7bec29362a.html#a2f8484d69c55d8f2a9697a7bec29362a">erase</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a88cbcefe9a3f4d294bed0653550a5cb9.html#a88cbcefe9a3f4d294bed0653550a5cb9">erase</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ae56b6bfbb1f6d2f43611f2ada4f9e5f2.html#ae56b6bfbb1f6d2f43611f2ada4f9e5f2">error_handler_t</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9a0aced019cb1d65bb49703406c84970.html#a9a0aced019cb1d65bb49703406c84970">exception</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a89eb3928f57903677051c80534be9cb1.html#a89eb3928f57903677051c80534be9cb1">find</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ae625a0647486edf2bb38c849ca67f934.html#ae625a0647486edf2bb38c849ca67f934">find</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ab838f000d76662917ffd6ec529569e03.html#ab838f000d76662917ffd6ec529569e03">flatten</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html#a58af1d4d20e1965a1c6679f6183d61f0">from_bson</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6d319d335e09dc9f4cb09a0d9d21d64d.html#a6d319d335e09dc9f4cb09a0d9d21d64d">from_bson</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a3d4b91e391612285bf834569edcc58e8.html#a3d4b91e391612285bf834569edcc58e8">from_cbor</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a9feae3ae796a32dee4c4278e22318328.html#a9feae3ae796a32dee4c4278e22318328">from_cbor</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7e724c9d881b953a5f1bff9fb6648d21.html#a7e724c9d881b953a5f1bff9fb6648d21">from_msgpack</a></td></tr>
@@ -200,7 +203,7 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a5c8bb5200f5eac10d31e26be46e5b1ac.html#a5c8bb5200f5eac10d31e26be46e5b1ac">operator&lt;=</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7e368211047f725f333696aefdf39ffd.html#a7e368211047f725f333696aefdf39ffd">operator&lt;=</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ad73f88f70fe5acfa521750a8cd710026.html#ad73f88f70fe5acfa521750a8cd710026">operator&lt;=</a></td></tr>
-          <tr><td class="navtab"><a class="qindexHL" href="classnlohmann_1_1basic__json_aab256df8c5594ec693035822fa1e2904.html#aab256df8c5594ec693035822fa1e2904">operator=</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a849368ca71af3a93d576939d486f61c7.html#a849368ca71af3a93d576939d486f61c7">operator=</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a122640e7e2db1814fc7bbb3c122ec76e.html#a122640e7e2db1814fc7bbb3c122ec76e">operator==</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_aba21440ea1aff44f718285ed7d6d20d9.html#aba21440ea1aff44f718285ed7d6d20d9">operator==</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_aef302e3ae215e46e5035d0e4fdf47235.html#aef302e3ae215e46e5035d0e4fdf47235">operator==</a></td></tr>
@@ -248,6 +251,9 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a65b0a24e1361a030ad0a661de22f6c8e.html#a65b0a24e1361a030ad0a661de22f6c8e">swap</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_ac31f12587d2f1a3be5ffc394aa9d72a4.html#ac31f12587d2f1a3be5ffc394aa9d72a4">swap</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_adaa1ed0a889d86c8e0216a3d66980f76.html#adaa1ed0a889d86c8e0216a3d66980f76">swap</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a8ca5dd4f18b59e7022b04fd9bf7f5176.html#a8ca5dd4f18b59e7022b04fd9bf7f5176">to_bson</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a51df13f73a970da95c3dcb3d47b0c2c4.html#a51df13f73a970da95c3dcb3d47b0c2c4">to_bson</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_aeb988f5b2148875ed1c9cb32bec156c6.html#aeb988f5b2148875ed1c9cb32bec156c6">to_bson</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a2566783e190dec524bf3445b322873b8.html#a2566783e190dec524bf3445b322873b8">to_cbor</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a5d9a89ac7ed08171a22dc6d65d033c09.html#a5d9a89ac7ed08171a22dc6d65d033c09">to_cbor</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a6defa7ec3d3ace8f713f001f720182d7.html#a6defa7ec3d3ace8f713f001f720182d7">to_cbor</a></td></tr>
@@ -274,8 +280,8 @@ $(function() {
       </div>
    </td>
    <td valign="top" class="mempage">
-<a id="aab256df8c5594ec693035822fa1e2904"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab256df8c5594ec693035822fa1e2904">&#9670;&nbsp;</a></span>operator=()</h2>
+<a id="a58af1d4d20e1965a1c6679f6183d61f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58af1d4d20e1965a1c6679f6183d61f0">&#9670;&nbsp;</a></span>from_bson() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,39 +292,117 @@ template&lt;template&lt; typename U, typename V, typename... Args &gt; class Obj
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classnlohmann_1_1basic__json_ac6a5eddd156c776ac75ff54cfe54a5bc.html#ac6a5eddd156c776ac75ff54cfe54a5bc">reference</a>&amp; <a class="el" href="classnlohmann_1_1basic__json.html">nlohmann::basic_json</a>::operator= </td>
+          <td class="memname">static <a class="el" href="classnlohmann_1_1basic__json.html">basic_json</a> <a class="el" href="classnlohmann_1_1basic__json.html">nlohmann::basic_json</a>::from_bson </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classnlohmann_1_1basic__json.html">basic_json</a>&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
+          <td class="paramtype">detail::input_adapter &amp;&amp;&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>strict</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>allow_exceptions</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p class="">Copy assignment operator. Copies a JSON value via the "copy and swap" strategy: It is expressed in terms of the copy constructor, destructor, and the <code>swap()</code> member function.</p>
+<p class="">Deserializes a given input <em>i</em> to a JSON value using the BSON (Binary JSON) serialization format.</p>
+<p class="">The library maps BSON record types to JSON value types as follows:</p>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">BSON type  </th><th class="markdownTableHeadNone">BSON marker byte  </th><th class="markdownTableHeadNone">JSON value type   </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">double  </td><td class="markdownTableBodyNone">0x01  </td><td class="markdownTableBodyNone">number_float   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">string  </td><td class="markdownTableBodyNone">0x02  </td><td class="markdownTableBodyNone">string   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">document  </td><td class="markdownTableBodyNone">0x03  </td><td class="markdownTableBodyNone">object   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">array  </td><td class="markdownTableBodyNone">0x04  </td><td class="markdownTableBodyNone">array   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">binary  </td><td class="markdownTableBodyNone">0x05  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">undefined  </td><td class="markdownTableBodyNone">0x06  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">ObjectId  </td><td class="markdownTableBodyNone">0x07  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">boolean  </td><td class="markdownTableBodyNone">0x08  </td><td class="markdownTableBodyNone">boolean   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">UTC Date-Time  </td><td class="markdownTableBodyNone">0x09  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">null  </td><td class="markdownTableBodyNone">0x0A  </td><td class="markdownTableBodyNone">null   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Regular Expr.  </td><td class="markdownTableBodyNone">0x0B  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">DB Pointer  </td><td class="markdownTableBodyNone">0x0C  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">JavaScript Code  </td><td class="markdownTableBodyNone">0x0D  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Symbol  </td><td class="markdownTableBodyNone">0x0E  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">JavaScript Code  </td><td class="markdownTableBodyNone">0x0F  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">int32  </td><td class="markdownTableBodyNone">0x10  </td><td class="markdownTableBodyNone">number_integer   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Timestamp  </td><td class="markdownTableBodyNone">0x11  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">128-bit decimal float  </td><td class="markdownTableBodyNone">0x13  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Max Key  </td><td class="markdownTableBodyNone">0x7F  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Min Key  </td><td class="markdownTableBodyNone">0xFF  </td><td class="markdownTableBodyNone">still unsupported   </td></tr>
+</table>
+<dl class="section warning"><dt>Warning</dt><dd>The mapping is <b>incomplete</b>. The unsupported mappings are indicated in the table above.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>value to copy from</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">i</td><td>an input in BSON format convertible to an input adapter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">strict</td><td>whether to expect the input to be consumed until EOF (true by default) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">allow_exceptions</td><td>whether to throw exceptions in case of a parse error (optional, true by default)</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section user"><dt>Complexity</dt><dd>Linear.</dd></dl>
-<dl class="section user"><dt>Requirements</dt><dd>This function helps <code>basic_json</code> satisfying the <a href="https://en.cppreference.com/w/cpp/named_req/Container">Container</a> requirements:<ul>
-<li>The complexity is linear.</li>
-</ul>
-</dd></dl>
-<dl class="section user"><dt>Example</dt><dd>The code below shows and example for the copy assignment. It creates a copy of value <code>a</code> which is then swapped with <code>b</code>. Finally, the copy of <code>a</code> (which is the null value after the swap) is destroyed. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;nlohmann/json.hpp&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// create JSON values</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> a = 23;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> b = 42;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// copy-assign a to b</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    b = a;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// serialize the JSON arrays</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    std::cout &lt;&lt; a &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    std::cout &lt;&lt; b &lt;&lt; <span class="charliteral">&#39;\n&#39;</span>;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class</div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l00110">json.hpp:110</a></div></div>
+<dl class="section return"><dt>Returns</dt><dd>deserialized JSON value</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">parse_error.114</td><td>if an unsupported BSON record type is encountered</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section user"><dt>Complexity</dt><dd>Linear in the size of the input <em>i</em>.</dd></dl>
+<dl class="section user"><dt>Example</dt><dd>The example shows the deserialization of a byte vector in BSON format to a JSON value. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;nlohmann/json.hpp&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="comment">// create byte vector</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    std::vector&lt;uint8_t&gt; v = {0x1b, 0x00, 0x00, 0x00, 0x08, 0x63, 0x6f, 0x6d,</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                              0x70, 0x61, 0x63, 0x74, 0x00, 0x01, 0x10, 0x73,</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                              0x63, 0x68, 0x65, 0x6d, 0x61, 0x00, 0x00, 0x00,</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                              0x00, 0x00, 0x00</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                             };</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">// deserialize it with BSON</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> j = <a class="code" href="classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html#a58af1d4d20e1965a1c6679f6183d61f0">json::from_bson</a>(v);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// print the deserialized JSON value</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    std::cout &lt;&lt; std::setw(2) &lt;&lt; j &lt;&lt; std::endl;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class</div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l00110">json.hpp:110</a></div></div>
+<div class="ttc" id="classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0_html_a58af1d4d20e1965a1c6679f6183d61f0"><div class="ttname"><a href="classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html#a58af1d4d20e1965a1c6679f6183d61f0">nlohmann::basic_json::from_bson</a></div><div class="ttdeci">static basic_json from_bson(detail::input_adapter &amp;&amp;i, const bool strict=true, const bool allow_exceptions=true)</div><div class="ttdoc">Create a JSON value from an input in BSON format.</div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l19988">json.hpp:19988</a></div></div>
 </div><!-- fragment --> <br />
- Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/jWDJPXw490IFoVL1"><b>online</b></a>): <pre class="fragment">23
-23
-</pre> The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/basic_json__copyassignment.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isingle_include doc/examples/basic_json__copyassignment.cpp -o basic_json__copyassignment </pre></dd></dl>
-<dl class="section since"><dt>Since</dt><dd>version 1.0.0 </dd></dl>
+ Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/qtfoxfHO7u4eKMcO"><b>online</b></a>): <pre class="fragment">{
+  "compact": true,
+  "schema": 0
+}
+</pre> The <a href="https://github.com/nlohmann/json/blob/develop/doc/examples/from_bson.cpp">example code</a> above can be translated with<pre class="fragment">g++ -std=c++11 -Isingle_include doc/examples/from_bson.cpp -o from_bson </pre></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="http://bsonspec.org/spec.html">http://bsonspec.org/spec.html</a> </dd>
+<dd>
+<a class="el" href="classnlohmann_1_1basic__json_a8ca5dd4f18b59e7022b04fd9bf7f5176.html#a8ca5dd4f18b59e7022b04fd9bf7f5176">to_bson(const basic_json&amp;)</a> for the analogous serialization </dd>
+<dd>
+<a class="el" href="classnlohmann_1_1basic__json_a3d4b91e391612285bf834569edcc58e8.html#a3d4b91e391612285bf834569edcc58e8">from_cbor(detail::input_adapter&amp;&amp;, const bool, const bool)</a> for the related CBOR format </dd>
+<dd>
+<a class="el" href="classnlohmann_1_1basic__json_a7e724c9d881b953a5f1bff9fb6648d21.html#a7e724c9d881b953a5f1bff9fb6648d21">from_msgpack(detail::input_adapter&amp;&amp;, const bool, const bool)</a> for the related MessagePack format </dd>
+<dd>
+<a class="el" href="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a.html#a98ef289216564da59a78903a5cabfc8a">from_ubjson(detail::input_adapter&amp;&amp;, const bool, const bool)</a> for the related UBJSON format </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l13083">13083</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l19988">19988</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -328,7 +412,7 @@ template&lt;template&lt; typename U, typename V, typename... Args &gt; class Obj
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Oct 5 2018 12:49:10 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Oct 30 2018 22:12:50 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>

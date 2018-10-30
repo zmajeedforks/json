@@ -91,6 +91,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>error_handler_t</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_ae56b6bfbb1f6d2f43611f2ada4f9e5f2.html</Path>
+    <Anchor>ae56b6bfbb1f6d2f43611f2ada4f9e5f2</Anchor>
+    <Abstract>how to treat decoding errors</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>initializer_list_t</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -644,8 +655,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_aab256df8c5594ec693035822fa1e2904.html</Path>
-    <Anchor>aab256df8c5594ec693035822fa1e2904</Anchor>
+    <Path>classnlohmann_1_1basic__json_a849368ca71af3a93d576939d486f61c7.html</Path>
+    <Anchor>a849368ca71af3a93d576939d486f61c7</Anchor>
     <Abstract>copy assignment</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -668,8 +679,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a5adea76fedba9898d404fef8598aa663.html</Path>
-    <Anchor>a5adea76fedba9898d404fef8598aa663</Anchor>
+    <Path>classnlohmann_1_1basic__json_a50ec80b02d0f3f51130d4abb5d1cfdc5.html</Path>
+    <Anchor>a50ec80b02d0f3f51130d4abb5d1cfdc5</Anchor>
     <Abstract>serialization</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2237,6 +2248,42 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>to_bson</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_a8ca5dd4f18b59e7022b04fd9bf7f5176.html</Path>
+    <Anchor>a8ca5dd4f18b59e7022b04fd9bf7f5176</Anchor>
+    <Abstract>Serializes the given JSON object j to BSON and returns a vector containing the corresponding BSON-rep...</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_bson</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_a51df13f73a970da95c3dcb3d47b0c2c4.html</Path>
+    <Anchor>a51df13f73a970da95c3dcb3d47b0c2c4</Anchor>
+    <Abstract>Serializes the given JSON object j to BSON and forwards the corresponding BSON-representation to the ...</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>to_bson</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_aeb988f5b2148875ed1c9cb32bec156c6.html</Path>
+    <Anchor>aeb988f5b2148875ed1c9cb32bec156c6</Anchor>
+    <Abstract>Serializes the given JSON object j to BSON and forwards the corresponding BSON-representation to the ...</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>from_cbor</Name>
       <APILanguage>cpp</APILanguage>
       <Type>clm</Type>
@@ -2256,6 +2303,7 @@
     </TokenIdentifier>
     <Path>classnlohmann_1_1basic__json_a9feae3ae796a32dee4c4278e22318328.html</Path>
     <Anchor>a9feae3ae796a32dee4c4278e22318328</Anchor>
+    <Abstract>create a JSON value from an input in CBOR format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2279,6 +2327,7 @@
     </TokenIdentifier>
     <Path>classnlohmann_1_1basic__json_aa5e5f010e4f23d485e084b3feec5d302.html</Path>
     <Anchor>aa5e5f010e4f23d485e084b3feec5d302</Anchor>
+    <Abstract>create a JSON value from an input in MessagePack format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2302,6 +2351,31 @@
     </TokenIdentifier>
     <Path>classnlohmann_1_1basic__json_aaaf355de7125b3cb48d59dba93e4adff.html</Path>
     <Anchor>aaaf355de7125b3cb48d59dba93e4adff</Anchor>
+    <Abstract>create a JSON value from an input in UBJSON format</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_bson</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html</Path>
+    <Anchor>a58af1d4d20e1965a1c6679f6183d61f0</Anchor>
+    <Abstract>Create a JSON value from an input in BSON format.</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>from_bson</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>clm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_a6d319d335e09dc9f4cb09a0d9d21d64d.html</Path>
+    <Anchor>a6d319d335e09dc9f4cb09a0d9d21d64d</Anchor>
+    <Abstract>Create a JSON value from an input in BSON format.</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2454,8 +2528,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::json_pointer</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_ad7d3a3a215db8fe0964e644a918dcccb.html</Path>
-    <Anchor>ad7d3a3a215db8fe0964e644a918dcccb</Anchor>
+    <Path>classnlohmann_1_1json__pointer_a3d4b15d32d096e3776c5d2c773b524f5.html</Path>
+    <Anchor>a3d4b15d32d096e3776c5d2c773b524f5</Anchor>
     <Abstract>return a string representation of the JSON pointer</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
