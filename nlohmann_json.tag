@@ -1456,9 +1456,9 @@
     <member kind="function">
       <type>void</type>
       <name>merge_patch</name>
-      <anchorfile>classnlohmann_1_1basic__json_a0ec0cd19cce42ae6071f3cc6870ea295.html</anchorfile>
-      <anchor>a0ec0cd19cce42ae6071f3cc6870ea295</anchor>
-      <arglist>(const basic_json &amp;patch)</arglist>
+      <anchorfile>classnlohmann_1_1basic__json_a7c43ed2a3004c1fa9543913f37b9fca9.html</anchorfile>
+      <anchor>a7c43ed2a3004c1fa9543913f37b9fca9</anchor>
+      <arglist>(const basic_json &amp;apply_patch)</arglist>
     </member>
   </compound>
   <compound kind="struct">

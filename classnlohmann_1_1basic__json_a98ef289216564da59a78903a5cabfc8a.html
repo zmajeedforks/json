@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">JSON for Modern C++
-   &#160;<span id="projectnumber">3.4.0</span>
+   &#160;<span id="projectnumber">3.5.0</span>
    </div>
   </td>
  </tr>
@@ -178,7 +178,7 @@ $(function() {
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_aa865c3eb68b6ebdd647173774d2b5cdb.html#aa865c3eb68b6ebdd647173774d2b5cdb">json_sax_t</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7768841baaaa7a21098a401c932efaff.html#a7768841baaaa7a21098a401c932efaff">json_serializer</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a2f47d3c6a441c57dd2be00449fbb88e1.html#a2f47d3c6a441c57dd2be00449fbb88e1">max_size</a></td></tr>
-          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a0ec0cd19cce42ae6071f3cc6870ea295.html#a0ec0cd19cce42ae6071f3cc6870ea295">merge_patch</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a7c43ed2a3004c1fa9543913f37b9fca9.html#a7c43ed2a3004c1fa9543913f37b9fca9">merge_patch</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab.html#aef6d0eeccee7c5c7e1317c2ea1607fab">meta</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a88d6103cb3620410b35200ee8e313d97.html#a88d6103cb3620410b35200ee8e313d97">number_float_t</a></td></tr>
           <tr><td class="navtab"><a class="qindex" href="classnlohmann_1_1basic__json_a98e611d67b7bd75307de99c9358ab2dc.html#a98e611d67b7bd75307de99c9358ab2dc">number_integer_t</a></td></tr>
@@ -377,7 +377,7 @@ template&lt;template&lt; typename U, typename V, typename... Args &gt; class Obj
 </dl>
 <dl class="section user"><dt>Complexity</dt><dd>Linear in the size of the input <em>i</em>.</dd></dl>
 <dl class="section user"><dt>Example</dt><dd>The example shows the deserialization of a byte vector in UBJSON format to a JSON value. <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;iomanip&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;nlohmann/json.hpp&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> = <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">int</span> main()</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="comment">// create byte vector</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    std::vector&lt;uint8_t&gt; v = {0x7B, 0x69, 0x07, 0x63, 0x6F, 0x6D, 0x70, 0x61,</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                              0x63, 0x74, 0x54, 0x69, 0x06, 0x73, 0x63, 0x68,</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                              0x65, 0x6D, 0x61, 0x69, 0x00, 0x7D</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                             };</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// deserialize it with UBJSON</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">json</a> j = <a class="code" href="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a.html#a98ef289216564da59a78903a5cabfc8a">json::from_ubjson</a>(v);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">// print the deserialized JSON value</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    std::cout &lt;&lt; std::setw(2) &lt;&lt; j &lt;&lt; std::endl;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div><div class="ttc" id="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474_html_a2bfd99e845a2e5cd90aeaf1b1431f474"><div class="ttname"><a href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474">nlohmann::json</a></div><div class="ttdeci">basic_json&lt;&gt; json</div><div class="ttdoc">default JSON class</div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l00110">json.hpp:110</a></div></div>
-<div class="ttc" id="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a_html_a98ef289216564da59a78903a5cabfc8a"><div class="ttname"><a href="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a.html#a98ef289216564da59a78903a5cabfc8a">nlohmann::basic_json::from_ubjson</a></div><div class="ttdeci">static basic_json from_ubjson(detail::input_adapter &amp;&amp;i, const bool strict=true, const bool allow_exceptions=true)</div><div class="ttdoc">create a JSON value from an input in UBJSON format</div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l19900">json.hpp:19900</a></div></div>
+<div class="ttc" id="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a_html_a98ef289216564da59a78903a5cabfc8a"><div class="ttname"><a href="classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a.html#a98ef289216564da59a78903a5cabfc8a">nlohmann::basic_json::from_ubjson</a></div><div class="ttdeci">static basic_json from_ubjson(detail::input_adapter &amp;&amp;i, const bool strict=true, const bool allow_exceptions=true)</div><div class="ttdoc">create a JSON value from an input in UBJSON format</div><div class="ttdef"><b>Definition:</b> <a href="json_8hpp_source.html#l20032">json.hpp:20032</a></div></div>
 </div><!-- fragment --> <br />
  Output (play with this example <a target="_blank" href="https://wandbox.org/permlink/uuQK0DAjhbSd96K6"><b>online</b></a>): <pre class="fragment">{
   "compact": true,
@@ -395,7 +395,7 @@ template&lt;template&lt; typename U, typename V, typename... Args &gt; class Obj
 <a class="el" href="classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html#a58af1d4d20e1965a1c6679f6183d61f0">from_bson(detail::input_adapter&amp;&amp;, const bool, const bool)</a> for the related BSON format</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>version 3.1.0; added <em>allow_exceptions</em> parameter since 3.2.0 </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l19900">19900</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="json_8hpp_source.html#l20032">20032</a> of file <a class="el" href="json_8hpp_source.html">json.hpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +405,7 @@ template&lt;template&lt; typename U, typename V, typename... Args &gt; class Obj
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Oct 30 2018 22:12:50 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 21 2018 23:55:50 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.15
 </small></address>
