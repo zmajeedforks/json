@@ -216,8 +216,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_aef6d0eeccee7c5c7e1317c2ea1607fab.html</Path>
-    <Anchor>aef6d0eeccee7c5c7e1317c2ea1607fab</Anchor>
+    <Path>classnlohmann_1_1basic__json_a563810575fe32eed55aa5355f6bdc4a7.html</Path>
+    <Anchor>a563810575fe32eed55aa5355f6bdc4a7</Anchor>
     <Abstract>returns version information on the library</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -523,8 +523,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_aa80485befaffcadaa39965494e0b4d2e.html</Path>
-    <Anchor>aa80485befaffcadaa39965494e0b4d2e</Anchor>
+    <Path>classnlohmann_1_1basic__json_a9ad7ec0bc1082ed09d10900fbb20a21f.html</Path>
+    <Anchor>a9ad7ec0bc1082ed09d10900fbb20a21f</Anchor>
     <Abstract>explicitly create an array from an initializer list</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -535,8 +535,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_aa13f7c0615867542ce80337cbcf13ada.html</Path>
-    <Anchor>aa13f7c0615867542ce80337cbcf13ada</Anchor>
+    <Path>classnlohmann_1_1basic__json_aaf509a7c029100d292187068f61c99b8.html</Path>
+    <Anchor>aaf509a7c029100d292187068f61c99b8</Anchor>
     <Abstract>explicitly create an object from an initializer list</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -571,8 +571,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a5a6558bfd1be139a638f91f0e09fc737.html</Path>
-    <Anchor>a5a6558bfd1be139a638f91f0e09fc737</Anchor>
+    <Path>classnlohmann_1_1basic__json_a7639e0834df2bc719a04ffea89b31abc.html</Path>
+    <Anchor>a7639e0834df2bc719a04ffea89b31abc</Anchor>
     <Abstract>create a JSON value</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -883,8 +883,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a16f9445f7629f634221a42b967cdcd43.html</Path>
-    <Anchor>a16f9445f7629f634221a42b967cdcd43</Anchor>
+    <Path>classnlohmann_1_1basic__json_aa6602bb24022183ab989439e19345d08.html</Path>
+    <Anchor>aa6602bb24022183ab989439e19345d08</Anchor>
     <Abstract>get a value (explicit)</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -895,8 +895,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_ab728c42baff9d11409d4f99d9f95d6af.html</Path>
-    <Anchor>ab728c42baff9d11409d4f99d9f95d6af</Anchor>
+    <Path>classnlohmann_1_1basic__json_a5afa21d477e13fa7a3dcd7ea66c48b52.html</Path>
+    <Anchor>a5afa21d477e13fa7a3dcd7ea66c48b52</Anchor>
     <Abstract>get a value (explicit); special case</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -907,8 +907,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a8a3db7d78f74232d3a6fb8f1abf69709.html</Path>
-    <Anchor>a8a3db7d78f74232d3a6fb8f1abf69709</Anchor>
+    <Path>classnlohmann_1_1basic__json_a65753c68f06639eda0d355f919564e01.html</Path>
+    <Anchor>a65753c68f06639eda0d355f919564e01</Anchor>
     <Abstract>get a value (explicit)</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -919,8 +919,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_afb283ec92e108f9561a86427a609b87c.html</Path>
-    <Anchor>afb283ec92e108f9561a86427a609b87c</Anchor>
+    <Path>classnlohmann_1_1basic__json_abefbb319df8ed4f8705b4fd4e4dc731c.html</Path>
+    <Anchor>abefbb319df8ed4f8705b4fd4e4dc731c</Anchor>
     <Abstract>get a pointer value (implicit)</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -931,8 +931,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_adc3f060acf24d0902aeed7dadec66a7d.html</Path>
-    <Anchor>adc3f060acf24d0902aeed7dadec66a7d</Anchor>
+    <Path>classnlohmann_1_1basic__json_a6508b9ef55eb018231fb2198211f6d73.html</Path>
+    <Anchor>a6508b9ef55eb018231fb2198211f6d73</Anchor>
     <Abstract>get a pointer value (implicit)</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -943,8 +943,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a4e8c9b67704826384d417cfd4b18a7bb.html</Path>
-    <Anchor>a4e8c9b67704826384d417cfd4b18a7bb</Anchor>
+    <Path>classnlohmann_1_1basic__json_a44516cba796e50ce5d62c9d6b7ab4c1d.html</Path>
+    <Anchor>a44516cba796e50ce5d62c9d6b7ab4c1d</Anchor>
     <Abstract>get a pointer value (explicit)</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -955,8 +955,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a5750dd9bd7bad23bc81d9173fda9a263.html</Path>
-    <Anchor>a5750dd9bd7bad23bc81d9173fda9a263</Anchor>
+    <Path>classnlohmann_1_1basic__json_ad6b0b151621542e5d135812b8c163222.html</Path>
+    <Anchor>ad6b0b151621542e5d135812b8c163222</Anchor>
     <Abstract>get a pointer value (explicit)</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -1294,6 +1294,18 @@
     <Path>classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html</Path>
     <Anchor>a0d74bfcf65662f1d66d14c34b0027098</Anchor>
     <Abstract>returns the number of occurrences of a key in a JSON object</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>contains</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::basic_json</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html</Path>
+    <Anchor>a0a45fc740637123fdf05fef970f8be47</Anchor>
+    <Abstract>check the existence of an element in a JSON object</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2082,8 +2094,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a5a0339361f3282cb8fd2f9ede6e17d72.html</Path>
-    <Anchor>a5a0339361f3282cb8fd2f9ede6e17d72</Anchor>
+    <Path>classnlohmann_1_1basic__json_afd4ef1ac8ad50a5894a9afebca69140a.html</Path>
+    <Anchor>afd4ef1ac8ad50a5894a9afebca69140a</Anchor>
     <Abstract>deserialize from a compatible input</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2289,8 +2301,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a3d4b91e391612285bf834569edcc58e8.html</Path>
-    <Anchor>a3d4b91e391612285bf834569edcc58e8</Anchor>
+    <Path>classnlohmann_1_1basic__json_a02ede1bab3adc87939a9300a43300480.html</Path>
+    <Anchor>a02ede1bab3adc87939a9300a43300480</Anchor>
     <Abstract>create a JSON value from an input in CBOR format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2301,8 +2313,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a9feae3ae796a32dee4c4278e22318328.html</Path>
-    <Anchor>a9feae3ae796a32dee4c4278e22318328</Anchor>
+    <Path>classnlohmann_1_1basic__json_adcf745830f681b72844c89815a1f219b.html</Path>
+    <Anchor>adcf745830f681b72844c89815a1f219b</Anchor>
     <Abstract>create a JSON value from an input in CBOR format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2313,8 +2325,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a7e724c9d881b953a5f1bff9fb6648d21.html</Path>
-    <Anchor>a7e724c9d881b953a5f1bff9fb6648d21</Anchor>
+    <Path>classnlohmann_1_1basic__json_a28da90379559be7927836fd081a82aca.html</Path>
+    <Anchor>a28da90379559be7927836fd081a82aca</Anchor>
     <Abstract>create a JSON value from an input in MessagePack format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2325,8 +2337,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_aa5e5f010e4f23d485e084b3feec5d302.html</Path>
-    <Anchor>aa5e5f010e4f23d485e084b3feec5d302</Anchor>
+    <Path>classnlohmann_1_1basic__json_ab165580e96cc1ce84a06260a3e54de49.html</Path>
+    <Anchor>ab165580e96cc1ce84a06260a3e54de49</Anchor>
     <Abstract>create a JSON value from an input in MessagePack format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2337,8 +2349,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a98ef289216564da59a78903a5cabfc8a.html</Path>
-    <Anchor>a98ef289216564da59a78903a5cabfc8a</Anchor>
+    <Path>classnlohmann_1_1basic__json_ae884591dd3497f237c89a8ef83271fc4.html</Path>
+    <Anchor>ae884591dd3497f237c89a8ef83271fc4</Anchor>
     <Abstract>create a JSON value from an input in UBJSON format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2349,8 +2361,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_aaaf355de7125b3cb48d59dba93e4adff.html</Path>
-    <Anchor>aaaf355de7125b3cb48d59dba93e4adff</Anchor>
+    <Path>classnlohmann_1_1basic__json_a25256d2f9accef4b527a2702b8ddecef.html</Path>
+    <Anchor>a25256d2f9accef4b527a2702b8ddecef</Anchor>
     <Abstract>create a JSON value from an input in UBJSON format</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2361,8 +2373,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a58af1d4d20e1965a1c6679f6183d61f0.html</Path>
-    <Anchor>a58af1d4d20e1965a1c6679f6183d61f0</Anchor>
+    <Path>classnlohmann_1_1basic__json_a89a4a1834883de313280a85266ae292a.html</Path>
+    <Anchor>a89a4a1834883de313280a85266ae292a</Anchor>
     <Abstract>Create a JSON value from an input in BSON format.</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2373,8 +2385,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a6d319d335e09dc9f4cb09a0d9d21d64d.html</Path>
-    <Anchor>a6d319d335e09dc9f4cb09a0d9d21d64d</Anchor>
+    <Path>classnlohmann_1_1basic__json_a2a30abf7ac5199a7af71c065aef23f1f.html</Path>
+    <Anchor>a2a30abf7ac5199a7af71c065aef23f1f</Anchor>
     <Abstract>Create a JSON value from an input in BSON format.</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2457,8 +2469,8 @@
       <Type>clm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a543bd5f7490de54c875b2c0912dc9a49.html</Path>
-    <Anchor>a543bd5f7490de54c875b2c0912dc9a49</Anchor>
+    <Path>classnlohmann_1_1basic__json_a4336103c941d9f60bd51320f4880e3dd.html</Path>
+    <Anchor>a4336103c941d9f60bd51320f4880e3dd</Anchor>
     <Abstract>creates a diff as a JSON patch</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2511,6 +2523,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a6bd5b554c10f15672135c216893eef31.html</Path>
+    <Anchor>a6bd5b554c10f15672135c216893eef31</Anchor>
+    <Abstract>return last reference token</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>empty</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a649252bda4a2e75a0915b11a25d8bcc3.html</Path>
+    <Anchor>a649252bda4a2e75a0915b11a25d8bcc3</Anchor>
+    <Abstract>return whether pointer points to the root document</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>operator std::string</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2523,6 +2559,90 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>operator/=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a7395bd0af29ac23fd3f21543c935cdfa.html</Path>
+    <Anchor>a7395bd0af29ac23fd3f21543c935cdfa</Anchor>
+    <Abstract>append another JSON pointer at the end of this JSON pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator/=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_abdd21567b2b1d69329af0f520335e68b.html</Path>
+    <Anchor>abdd21567b2b1d69329af0f520335e68b</Anchor>
+    <Abstract>append an unescaped reference token at the end of this JSON pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator/=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a64c8401529131bad1e486d91d703795f.html</Path>
+    <Anchor>a64c8401529131bad1e486d91d703795f</Anchor>
+    <Abstract>append an array index at the end of this JSON pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>parent_pointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_afdaacce1edb7145e0434e014f0e8685a.html</Path>
+    <Anchor>afdaacce1edb7145e0434e014f0e8685a</Anchor>
+    <Abstract>returns the parent of this JSON pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pop_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a4b1ee4d511ca195bed896a3da47e264c.html</Path>
+    <Anchor>a4b1ee4d511ca195bed896a3da47e264c</Anchor>
+    <Abstract>remove last reference token</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a697d12b5bd6205f8866691b166b7c7dc.html</Path>
+    <Anchor>a697d12b5bd6205f8866691b166b7c7dc</Anchor>
+    <Abstract>append an unescaped token at the end of the reference pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_ac228b13596d3c34185da9fe61b570194.html</Path>
+    <Anchor>ac228b13596d3c34185da9fe61b570194</Anchor>
+    <Abstract>append an unescaped token at the end of the reference pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>to_string</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2531,17 +2651,6 @@
     <Path>classnlohmann_1_1json__pointer_a3d4b15d32d096e3776c5d2c773b524f5.html</Path>
     <Anchor>a3d4b15d32d096e3776c5d2c773b524f5</Anchor>
     <Abstract>return a string representation of the JSON pointer</Abstract>
-    <DeclaredIn>json.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>array_index</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>clm</Type>
-      <Scope>nlohmann::json_pointer</Scope>
-    </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_ac53f5b79dd91da78743c437832f57ce4.html</Path>
-    <Anchor>ac53f5b79dd91da78743c437832f57ce4</Anchor>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2563,6 +2672,43 @@
     </TokenIdentifier>
     <Path>classnlohmann_1_1json__pointer_a6779edcf28e6f018a3bbb29c0b4b5e1e.html</Path>
     <Anchor>a6779edcf28e6f018a3bbb29c0b4b5e1e</Anchor>
+    <Abstract>compares two JSON pointers for inequality</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator/</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a90a11fe6c7f37b1746a3ff9cb24b0d53.html</Path>
+    <Anchor>a90a11fe6c7f37b1746a3ff9cb24b0d53</Anchor>
+    <Abstract>create a new JSON pointer by appending the right JSON pointer at the end of the left JSON pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator/</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a926c9065dbed1bedc17857a813f7a46f.html</Path>
+    <Anchor>a926c9065dbed1bedc17857a813f7a46f</Anchor>
+    <Abstract>create a new JSON pointer by appending the unescaped token at the end of the JSON pointer</Abstract>
+    <DeclaredIn>json.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator/</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>nlohmann::json_pointer</Scope>
+    </TokenIdentifier>
+    <Path>classnlohmann_1_1json__pointer_a9f6bc6f4d4668b4e9a19d8b8ac29da4f.html</Path>
+    <Anchor>a9f6bc6f4d4668b4e9a19d8b8ac29da4f</Anchor>
+    <Abstract>create a new JSON pointer by appending the array-index-token at the end of the JSON pointer</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2574,6 +2720,7 @@
     </TokenIdentifier>
     <Path>classnlohmann_1_1json__pointer_a4667ef558c8c3f8a646bfda0c6654653.html</Path>
     <Anchor>a4667ef558c8c3f8a646bfda0c6654653</Anchor>
+    <Abstract>compares two JSON pointers for equality</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
