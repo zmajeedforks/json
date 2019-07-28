@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">JSON for Modern C++
-   &#160;<span id="projectnumber">3.6.1</span>
+   &#160;<span id="projectnumber">3.7.0</span>
    </div>
   </td>
  </tr>
@@ -70,7 +70,11 @@ $(function() {
 <div class="textblock"><p>These pages contain the API documentation of JSON for Modern C++, a C++11 header-only JSON class.</p>
 <h1>Contents</h1>
 <ul>
-<li><a class="el" href="classnlohmann_1_1basic__json.html"><code>basic_json</code> class </a></li>
+<li>Classes<ul>
+<li><a class="el" href="classnlohmann_1_1basic__json.html"><code>basic_json</code></a> &ndash; class template for JSON values</li>
+<li><a class="el" href="namespacenlohmann_a2bfd99e845a2e5cd90aeaf1b1431f474.html#a2bfd99e845a2e5cd90aeaf1b1431f474"><code>json</code></a> &ndash; the default specialization of <code>basic_json</code>, defined as <code>basic_json&lt;&gt;</code></li>
+</ul>
+</li>
 <li><a href="functions_func.html">Functions</a><ul>
 <li>object inspection<ul>
 <li><a class="el" href="classnlohmann_1_1basic__json_a50ec80b02d0f3f51130d4abb5d1cfdc5.html#a50ec80b02d0f3f51130d4abb5d1cfdc5">dump </a> &ndash; value serialization</li>
@@ -110,7 +114,7 @@ $(function() {
 </ul>
 </li>
 <li>deserialization / parsing<ul>
-<li><a class="el" href="classnlohmann_1_1basic__json_afd4ef1ac8ad50a5894a9afebca69140a.html#afd4ef1ac8ad50a5894a9afebca69140a">parse </a> parse from input (string, file, etc.) and return JSON value</li>
+<li><a class="el" href="classnlohmann_1_1basic__json_a265a473e939184aa42655c9ccdf34e58.html#a265a473e939184aa42655c9ccdf34e58">parse </a> parse from input (string, file, etc.) and return JSON value</li>
 <li><a class="el" href="classnlohmann_1_1basic__json_a8a3dd150c2d1f0df3502d937de0871db.html#a8a3dd150c2d1f0df3502d937de0871db">sax_parse </a> parse from input (string, file, etc.) and generate SAX events</li>
 <li><a class="el" href="classnlohmann_1_1basic__json_aaf363408931d76472ded14017e59c9e8.html#aaf363408931d76472ded14017e59c9e8">operator&gt;&gt; </a> parse from stream</li>
 <li><a class="el" href="classnlohmann_1_1basic__json_a875585b0cb6133902066daccd7c9d420.html#a875585b0cb6133902066daccd7c9d420">accept </a> check for syntax errors without parsing</li>
@@ -119,10 +123,10 @@ $(function() {
 </ul>
 </li>
 <li><a class="el" href="md_binary_formats.html">binary formats</a>:<ul>
-<li>CBOR: <a class="el" href="classnlohmann_1_1basic__json_a02ede1bab3adc87939a9300a43300480.html#a02ede1bab3adc87939a9300a43300480">from_cbor </a> / <a class="el" href="classnlohmann_1_1basic__json_a2566783e190dec524bf3445b322873b8.html#a2566783e190dec524bf3445b322873b8">to_cbor </a></li>
-<li>MessagePack: <a class="el" href="classnlohmann_1_1basic__json_a28da90379559be7927836fd081a82aca.html#a28da90379559be7927836fd081a82aca">from_msgpack </a> / <a class="el" href="classnlohmann_1_1basic__json_a09ca1dc273d226afe0ca83a9d7438d9c.html#a09ca1dc273d226afe0ca83a9d7438d9c">to_msgpack </a></li>
-<li>UBJSON: <a class="el" href="classnlohmann_1_1basic__json_ae884591dd3497f237c89a8ef83271fc4.html#ae884591dd3497f237c89a8ef83271fc4">from_ubjson </a> / <a class="el" href="classnlohmann_1_1basic__json_ae1ece6c2059114eac10873f13ef19185.html#ae1ece6c2059114eac10873f13ef19185">to_ubjson </a></li>
-<li>BSON: <a class="el" href="classnlohmann_1_1basic__json_a89a4a1834883de313280a85266ae292a.html#a89a4a1834883de313280a85266ae292a">from_bson </a> / <a class="el" href="classnlohmann_1_1basic__json_a8ca5dd4f18b59e7022b04fd9bf7f5176.html#a8ca5dd4f18b59e7022b04fd9bf7f5176">to_bson </a></li>
+<li>CBOR: <a class="el" href="classnlohmann_1_1basic__json_a1d568ba1bd6978d80db42aa76626e2cf.html#a1d568ba1bd6978d80db42aa76626e2cf">from_cbor </a> / <a class="el" href="classnlohmann_1_1basic__json_a2566783e190dec524bf3445b322873b8.html#a2566783e190dec524bf3445b322873b8">to_cbor </a></li>
+<li>MessagePack: <a class="el" href="classnlohmann_1_1basic__json_a11458b7982adba51bc634f2f8c961e9b.html#a11458b7982adba51bc634f2f8c961e9b">from_msgpack </a> / <a class="el" href="classnlohmann_1_1basic__json_a09ca1dc273d226afe0ca83a9d7438d9c.html#a09ca1dc273d226afe0ca83a9d7438d9c">to_msgpack </a></li>
+<li>UBJSON: <a class="el" href="classnlohmann_1_1basic__json_a1ed52b463d2ef14c85ed076467168c72.html#a1ed52b463d2ef14c85ed076467168c72">from_ubjson </a> / <a class="el" href="classnlohmann_1_1basic__json_ae1ece6c2059114eac10873f13ef19185.html#ae1ece6c2059114eac10873f13ef19185">to_ubjson </a></li>
+<li>BSON: <a class="el" href="classnlohmann_1_1basic__json_a0524486cd0b36a47448df882ec0d5e7b.html#a0524486cd0b36a47448df882ec0d5e7b">from_bson </a> / <a class="el" href="classnlohmann_1_1basic__json_a8ca5dd4f18b59e7022b04fd9bf7f5176.html#a8ca5dd4f18b59e7022b04fd9bf7f5176">to_bson </a></li>
 </ul>
 </li>
 </ul>
@@ -197,8 +201,8 @@ access </td><td><code>at</code> </td><td class="ok_green"><a class="el" href="cl
 <td><code>push_back</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_ae11a3a51782c058fff2f6550cdfb9b3c.html#ae11a3a51782c058fff2f6550cdfb9b3c"><code>push_back</code> </a> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_ab4384af330b79de0e5f279576803a2c7.html#ab4384af330b79de0e5f279576803a2c7"><code>push_back</code> </a> </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (308) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (308) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (308) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_ae11a3a51782c058fff2f6550cdfb9b3c.html#ae11a3a51782c058fff2f6550cdfb9b3c"><code>push_back</code> </a> (creates object)<br />
 <a class="el" href="classnlohmann_1_1basic__json_ab4384af330b79de0e5f279576803a2c7.html#ab4384af330b79de0e5f279576803a2c7"><code>push_back</code> </a> (creates array)  </td></tr>
 <tr>
-<td><code>emplace</code> / <code>emplace_back</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a5338e282d1d02bed389d852dd670d98d.html#a5338e282d1d02bed389d852dd670d98d"><code>emplace</code> </a> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_aacf5eed15a8b66fb1e88910707a5e229.html#aacf5eed15a8b66fb1e88910707a5e229"><code>emplace_back</code> </a> </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (311) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (311) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (311) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a5338e282d1d02bed389d852dd670d98d.html#a5338e282d1d02bed389d852dd670d98d"><code>emplace</code> </a> (creates object)<br />
-<a class="el" href="classnlohmann_1_1basic__json_aacf5eed15a8b66fb1e88910707a5e229.html#aacf5eed15a8b66fb1e88910707a5e229"><code>emplace_back</code> </a> (creates array)  </td></tr>
+<td><code>emplace</code> / <code>emplace_back</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a5338e282d1d02bed389d852dd670d98d.html#a5338e282d1d02bed389d852dd670d98d"><code>emplace</code> </a> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_abf29131f898b05aad2c01a9c80e7a002.html#abf29131f898b05aad2c01a9c80e7a002"><code>emplace_back</code> </a> </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (311) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (311) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (311) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a5338e282d1d02bed389d852dd670d98d.html#a5338e282d1d02bed389d852dd670d98d"><code>emplace</code> </a> (creates object)<br />
+<a class="el" href="classnlohmann_1_1basic__json_abf29131f898b05aad2c01a9c80e7a002.html#abf29131f898b05aad2c01a9c80e7a002"><code>emplace_back</code> </a> (creates array)  </td></tr>
 <tr>
 <td><code>update</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a1cfa9ae5e7c2434cab4cfe69bffffe11.html#a1cfa9ae5e7c2434cab4cfe69bffffe11"><code>update</code> </a> </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (312) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (312) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (312) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (312) </td><td class="nok_throws">throws <a class="el" href="classnlohmann_1_1basic__json_a4010e8e268fefd86da773c10318f2902.html#a4010e8e268fefd86da773c10318f2902"><code>json::type_error</code> </a> (312)  </td></tr>
 <tr>
@@ -208,17 +212,17 @@ access </td><td><code>at</code> </td><td class="ok_green"><a class="el" href="cl
 <tr>
 <td><code>count</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html#a0d74bfcf65662f1d66d14c34b0027098"><code>count</code> </a> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html#a0d74bfcf65662f1d66d14c34b0027098"><code>count</code> </a> (returns <code>0</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html#a0d74bfcf65662f1d66d14c34b0027098"><code>count</code> </a> (returns <code>0</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html#a0d74bfcf65662f1d66d14c34b0027098"><code>count</code> </a> (returns <code>0</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html#a0d74bfcf65662f1d66d14c34b0027098"><code>count</code> </a> (returns <code>0</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0d74bfcf65662f1d66d14c34b0027098.html#a0d74bfcf65662f1d66d14c34b0027098"><code>count</code> </a> (returns <code>0</code>)  </td></tr>
 <tr>
-<td><code>contains</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html#a0a45fc740637123fdf05fef970f8be47"><code>contains</code> </a> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html#a0a45fc740637123fdf05fef970f8be47"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html#a0a45fc740637123fdf05fef970f8be47"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html#a0a45fc740637123fdf05fef970f8be47"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html#a0a45fc740637123fdf05fef970f8be47"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a0a45fc740637123fdf05fef970f8be47.html#a0a45fc740637123fdf05fef970f8be47"><code>contains</code> </a> (returns <code>false</code>)  </td></tr>
+<td><code>contains</code> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a9286acdc0578fc66e9346323e69fc0e3.html#a9286acdc0578fc66e9346323e69fc0e3"><code>contains</code> </a> </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a9286acdc0578fc66e9346323e69fc0e3.html#a9286acdc0578fc66e9346323e69fc0e3"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a9286acdc0578fc66e9346323e69fc0e3.html#a9286acdc0578fc66e9346323e69fc0e3"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a9286acdc0578fc66e9346323e69fc0e3.html#a9286acdc0578fc66e9346323e69fc0e3"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a9286acdc0578fc66e9346323e69fc0e3.html#a9286acdc0578fc66e9346323e69fc0e3"><code>contains</code> </a> (returns <code>false</code>) </td><td class="ok_green"><a class="el" href="classnlohmann_1_1basic__json_a9286acdc0578fc66e9346323e69fc0e3.html#a9286acdc0578fc66e9346323e69fc0e3"><code>contains</code> </a> (returns <code>false</code>)  </td></tr>
 </table>
 <dl class="section copyright"><dt>Copyright</dt><dd>Copyright &copy; 2013-2019 Niels Lohmann. The code is licensed under the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</dd></dl>
 <dl class="section author"><dt>Author</dt><dd><a href="http://nlohmann.me">Niels Lohmann</a> </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://github.com/nlohmann/json">https://github.com/nlohmann/json</a> to download the source code</dd></dl>
-<dl class="section version"><dt>Version</dt><dd>3.6.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>3.7.0 </dd></dl>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Mar 20 2019 20:55:40 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Jul 28 2019 20:54:48 for JSON for Modern C++ by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.16
 </small></address>
