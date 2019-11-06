@@ -204,8 +204,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a9d75f6b5393b23a683d69605f9fb1f55.html</Path>
-    <Anchor>a9d75f6b5393b23a683d69605f9fb1f55</Anchor>
+    <Path>classnlohmann_1_1basic__json_ad14563c53cf7ca9189bc164082367bf3.html</Path>
+    <Anchor>ad14563c53cf7ca9189bc164082367bf3</Anchor>
     <Abstract>return the type as string</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -907,8 +907,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::basic_json</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1basic__json_a5afa21d477e13fa7a3dcd7ea66c48b52.html</Path>
-    <Anchor>a5afa21d477e13fa7a3dcd7ea66c48b52</Anchor>
+    <Path>classnlohmann_1_1basic__json_a6c829df57e924f88cecb702a60af8f17.html</Path>
+    <Anchor>a6c829df57e924f88cecb702a60af8f17</Anchor>
     <Abstract>get a value (explicit); special case</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2563,8 +2563,8 @@
       <Type>instm</Type>
       <Scope>nlohmann::json_pointer</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_a6bd5b554c10f15672135c216893eef31.html</Path>
-    <Anchor>a6bd5b554c10f15672135c216893eef31</Anchor>
+    <Path>classnlohmann_1_1json__pointer_a213bc67c32a30c68ac6bf06f5195d482.html</Path>
+    <Anchor>a213bc67c32a30c68ac6bf06f5195d482</Anchor>
     <Abstract>return last reference token</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
@@ -2611,9 +2611,9 @@
       <Type>instm</Type>
       <Scope>nlohmann::json_pointer</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_abdd21567b2b1d69329af0f520335e68b.html</Path>
-    <Anchor>abdd21567b2b1d69329af0f520335e68b</Anchor>
-    <Abstract>append an unescaped reference token at the end of this JSON pointer</Abstract>
+    <Path>classnlohmann_1_1json__pointer_a64c8401529131bad1e486d91d703795f.html</Path>
+    <Anchor>a64c8401529131bad1e486d91d703795f</Anchor>
+    <Abstract>append an array index at the end of this JSON pointer</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2623,9 +2623,9 @@
       <Type>instm</Type>
       <Scope>nlohmann::json_pointer</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_a64c8401529131bad1e486d91d703795f.html</Path>
-    <Anchor>a64c8401529131bad1e486d91d703795f</Anchor>
-    <Abstract>append an array index at the end of this JSON pointer</Abstract>
+    <Path>classnlohmann_1_1json__pointer_abdd21567b2b1d69329af0f520335e68b.html</Path>
+    <Anchor>abdd21567b2b1d69329af0f520335e68b</Anchor>
+    <Abstract>append an unescaped reference token at the end of this JSON pointer</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2729,9 +2729,9 @@
       <Type>ffunc</Type>
       <Scope>nlohmann::json_pointer</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_a926c9065dbed1bedc17857a813f7a46f.html</Path>
-    <Anchor>a926c9065dbed1bedc17857a813f7a46f</Anchor>
-    <Abstract>create a new JSON pointer by appending the unescaped token at the end of the JSON pointer</Abstract>
+    <Path>classnlohmann_1_1json__pointer_a9f6bc6f4d4668b4e9a19d8b8ac29da4f.html</Path>
+    <Anchor>a9f6bc6f4d4668b4e9a19d8b8ac29da4f</Anchor>
+    <Abstract>create a new JSON pointer by appending the array-index-token at the end of the JSON pointer</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2741,9 +2741,9 @@
       <Type>ffunc</Type>
       <Scope>nlohmann::json_pointer</Scope>
     </TokenIdentifier>
-    <Path>classnlohmann_1_1json__pointer_a9f6bc6f4d4668b4e9a19d8b8ac29da4f.html</Path>
-    <Anchor>a9f6bc6f4d4668b4e9a19d8b8ac29da4f</Anchor>
-    <Abstract>create a new JSON pointer by appending the array-index-token at the end of the JSON pointer</Abstract>
+    <Path>classnlohmann_1_1json__pointer_a926c9065dbed1bedc17857a813f7a46f.html</Path>
+    <Anchor>a926c9065dbed1bedc17857a813f7a46f</Anchor>
+    <Abstract>create a new JSON pointer by appending the unescaped token at the end of the JSON pointer</Abstract>
     <DeclaredIn>json.hpp</DeclaredIn>
   </Token>
   <Token>

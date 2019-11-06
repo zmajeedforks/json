@@ -10,7 +10,6 @@
       <name>from_json</name>
       <anchorfile>structnlohmann_1_1adl__serializer_a2c544585b8b1828a0f1eecd831d0496e.html</anchorfile>
       <anchor>a2c544585b8b1828a0f1eecd831d0496e</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;2#T#T@adl_serializer@FT@&gt;2#T#Tfrom_json#&amp;&amp;t1.0#&amp;t1.1#I#S</clangid>
       <arglist>(BasicJsonType &amp;&amp;j, ValueType &amp;val) noexcept(noexcept(::nlohmann::from_json(std::forward&lt; BasicJsonType &gt;(j), val))) -&gt; decltype(::nlohmann::from_json(std::forward&lt; BasicJsonType &gt;(j), val), void())</arglist>
     </member>
     <member kind="function" static="yes">
@@ -18,7 +17,6 @@
       <name>to_json</name>
       <anchorfile>structnlohmann_1_1adl__serializer_a01b867bd5dce5249d4f7433b8f27def6.html</anchorfile>
       <anchor>a01b867bd5dce5249d4f7433b8f27def6</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;2#T#T@adl_serializer@FT@&gt;2#T#Tto_json#&amp;t1.0#&amp;&amp;t1.1#I#S</clangid>
       <arglist>(BasicJsonType &amp;j, ValueType &amp;&amp;val) noexcept(noexcept(::nlohmann::to_json(j, std::forward&lt; ValueType &gt;(val)))) -&gt; decltype(::nlohmann::to_json(j, std::forward&lt; ValueType &gt;(val)), void())</arglist>
     </member>
   </compound>
@@ -98,10 +96,10 @@
       <arglist></arglist>
     </member>
     <member kind="function">
-      <type>JSON_HEDLEY_RETURNS_NON_NULL const char *</type>
+      <type>const JSON_HEDLEY_RETURNS_NON_NULL char *</type>
       <name>type_name</name>
-      <anchorfile>classnlohmann_1_1basic__json_a9d75f6b5393b23a683d69605f9fb1f55.html</anchorfile>
-      <anchor>a9d75f6b5393b23a683d69605f9fb1f55</anchor>
+      <anchorfile>classnlohmann_1_1basic__json_ad14563c53cf7ca9189bc164082367bf3.html</anchorfile>
+      <anchor>ad14563c53cf7ca9189bc164082367bf3</anchor>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function" static="yes">
@@ -109,7 +107,6 @@
       <name>get_allocator</name>
       <anchorfile>classnlohmann_1_1basic__json_af4ac14224fbdd29d3547fcb11bb55c8f.html</anchorfile>
       <anchor>af4ac14224fbdd29d3547fcb11bb55c8f</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json@F@get_allocator#S</clangid>
       <arglist>()</arglist>
     </member>
     <member kind="function" static="yes">
@@ -117,7 +114,6 @@
       <name>meta</name>
       <anchorfile>classnlohmann_1_1basic__json_a677318a34ade7f8177a2784c06aa3671.html</anchorfile>
       <anchor>a677318a34ade7f8177a2784c06aa3671</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json@F@meta#S</clangid>
       <arglist>()</arglist>
     </member>
     <member kind="friend">
@@ -125,7 +121,6 @@
       <name>detail::external_constructor</name>
       <anchorfile>classnlohmann_1_1basic__json_a6275ed57bae6866cdf5db5370a7ad47c.html</anchorfile>
       <anchor>a6275ed57bae6866cdf5db5370a7ad47c</anchor>
-      <clangid>c:@N@nlohmann@N@detail@ST&gt;1#N$@N@nlohmann@N@detail@E@value_t@external_constructor</clangid>
       <arglist></arglist>
     </member>
     <member kind="typedef">
@@ -315,7 +310,6 @@
       <name>array</name>
       <anchorfile>classnlohmann_1_1basic__json_a8a7d537fc297bbc5b845f92fe0445e3b.html</anchorfile>
       <anchor>a8a7d537fc297bbc5b845f92fe0445e3b</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(initializer_list_t init={})</arglist>
     </member>
     <member kind="function" static="yes">
@@ -323,7 +317,6 @@
       <name>object</name>
       <anchorfile>classnlohmann_1_1basic__json_a31f84ee15c4690ff705bed74736d04c6.html</anchorfile>
       <anchor>a31f84ee15c4690ff705bed74736d04c6</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(initializer_list_t init={})</arglist>
     </member>
     <member kind="function">
@@ -331,7 +324,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_aed115142bd0c6c66c864700e0467df55.html</anchorfile>
       <anchor>aed115142bd0c6c66c864700e0467df55</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json@F@basic_json#1$@N@nlohmann@N@detail@E@value_t#</clangid>
       <arglist>(const value_t v)</arglist>
     </member>
     <member kind="function">
@@ -339,7 +331,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_ae9be9e956bfc4658f35d17c6aa72b063.html</anchorfile>
       <anchor>ae9be9e956bfc4658f35d17c6aa72b063</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json@F@basic_json#I#</clangid>
       <arglist>(std::nullptr_t=nullptr) noexcept</arglist>
     </member>
     <member kind="function">
@@ -347,7 +338,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_a7639e0834df2bc719a04ffea89b31abc.html</anchorfile>
       <anchor>a7639e0834df2bc719a04ffea89b31abc</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json@FT@&gt;3#T#T#NIbasic_json#&amp;&amp;t1.0#v#</clangid>
       <arglist>(CompatibleType &amp;&amp;val) noexcept(noexcept(JSONSerializer&lt; U &gt;::to_json(std::declval&lt; basic_json_t &amp; &gt;(), std::forward&lt; CompatibleType &gt;(val))))</arglist>
     </member>
     <member kind="function">
@@ -355,7 +345,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_aa16dc469c842fa8a0aaf6f5a95c46bb3.html</anchorfile>
       <anchor>aa16dc469c842fa8a0aaf6f5a95c46bb3</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(const BasicJsonType &amp;val)</arglist>
     </member>
     <member kind="function">
@@ -363,7 +352,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_ab5dfd9a2b2663b219641cb7fe59b6da2.html</anchorfile>
       <anchor>ab5dfd9a2b2663b219641cb7fe59b6da2</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(initializer_list_t init, bool type_deduction=true, value_t manual_type=value_t::array)</arglist>
     </member>
     <member kind="function">
@@ -371,7 +359,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_ab6816ae5100409254ed0a8bc21c387bb.html</anchorfile>
       <anchor>ab6816ae5100409254ed0a8bc21c387bb</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(size_type cnt, const basic_json &amp;val)</arglist>
     </member>
     <member kind="function">
@@ -379,7 +366,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_abe197e9f3184487805cfb5bba6fd5938.html</anchorfile>
       <anchor>abe197e9f3184487805cfb5bba6fd5938</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(InputIT first, InputIT last)</arglist>
     </member>
     <member kind="function">
@@ -387,7 +373,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_af5de621bcf646c332343f9c1e011126c.html</anchorfile>
       <anchor>af5de621bcf646c332343f9c1e011126c</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(const basic_json &amp;other)</arglist>
     </member>
     <member kind="function">
@@ -395,7 +380,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_a9a06d1efd50a00f4889f831f851ce124.html</anchorfile>
       <anchor>a9a06d1efd50a00f4889f831f851ce124</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(basic_json &amp;&amp;other) noexcept</arglist>
     </member>
     <member kind="function">
@@ -403,7 +387,6 @@
       <name>operator=</name>
       <anchorfile>classnlohmann_1_1basic__json_a849368ca71af3a93d576939d486f61c7.html</anchorfile>
       <anchor>a849368ca71af3a93d576939d486f61c7</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(basic_json other) noexcept(std::is_nothrow_move_constructible&lt; value_t &gt;::value and std::is_nothrow_move_assignable&lt; value_t &gt;::value and std::is_nothrow_move_constructible&lt; json_value &gt;::value and std::is_nothrow_move_assignable&lt; json_value &gt;::value)</arglist>
     </member>
     <member kind="function">
@@ -411,7 +394,6 @@
       <name>~basic_json</name>
       <anchorfile>classnlohmann_1_1basic__json_aba01953d5d90e676d504863b8d9fdde5.html</anchorfile>
       <anchor>aba01953d5d90e676d504863b8d9fdde5</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
@@ -419,7 +401,6 @@
       <name>dump</name>
       <anchorfile>classnlohmann_1_1basic__json_a50ec80b02d0f3f51130d4abb5d1cfdc5.html</anchorfile>
       <anchor>a50ec80b02d0f3f51130d4abb5d1cfdc5</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(const int indent=-1, const char indent_char=&apos; &apos;, const bool ensure_ascii=false, const error_handler_t error_handler=error_handler_t::strict) const</arglist>
     </member>
     <member kind="function">
@@ -427,7 +408,6 @@
       <name>type</name>
       <anchorfile>classnlohmann_1_1basic__json_a2b2d781d7f2a4ee41bc0016e931cadf7.html</anchorfile>
       <anchor>a2b2d781d7f2a4ee41bc0016e931cadf7</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -435,7 +415,6 @@
       <name>is_primitive</name>
       <anchorfile>classnlohmann_1_1basic__json_a6362b88718eb5c6d4fed6a61eed44b95.html</anchorfile>
       <anchor>a6362b88718eb5c6d4fed6a61eed44b95</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -443,7 +422,6 @@
       <name>is_structured</name>
       <anchorfile>classnlohmann_1_1basic__json_a9f68a0af820c3ced7f9d17851ce4c22d.html</anchorfile>
       <anchor>a9f68a0af820c3ced7f9d17851ce4c22d</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -451,7 +429,6 @@
       <name>is_null</name>
       <anchorfile>classnlohmann_1_1basic__json_a8faa039ca82427ed29c486ffd00600c3.html</anchorfile>
       <anchor>a8faa039ca82427ed29c486ffd00600c3</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -459,7 +436,6 @@
       <name>is_boolean</name>
       <anchorfile>classnlohmann_1_1basic__json_a943e8cb182d0f2365c76d64b42eaa6fd.html</anchorfile>
       <anchor>a943e8cb182d0f2365c76d64b42eaa6fd</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -467,7 +443,6 @@
       <name>is_number</name>
       <anchorfile>classnlohmann_1_1basic__json_a2b9852390abb4b1ef5fac6984e2fc0f3.html</anchorfile>
       <anchor>a2b9852390abb4b1ef5fac6984e2fc0f3</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -475,7 +450,6 @@
       <name>is_number_integer</name>
       <anchorfile>classnlohmann_1_1basic__json_abac8af76067f1e8fdca9052882c74428.html</anchorfile>
       <anchor>abac8af76067f1e8fdca9052882c74428</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -483,7 +457,6 @@
       <name>is_number_unsigned</name>
       <anchorfile>classnlohmann_1_1basic__json_abc7378cba0613a78b9aad1c8e7044bb0.html</anchorfile>
       <anchor>abc7378cba0613a78b9aad1c8e7044bb0</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -491,7 +464,6 @@
       <name>is_number_float</name>
       <anchorfile>classnlohmann_1_1basic__json_a33b4bf898b857c962e798fc7f6e86e70.html</anchorfile>
       <anchor>a33b4bf898b857c962e798fc7f6e86e70</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -499,7 +471,6 @@
       <name>is_object</name>
       <anchorfile>classnlohmann_1_1basic__json_af8f511af124e82e4579f444b4175787c.html</anchorfile>
       <anchor>af8f511af124e82e4579f444b4175787c</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -507,7 +478,6 @@
       <name>is_array</name>
       <anchorfile>classnlohmann_1_1basic__json_aef9ce5dd2381caee1f8ddcdb5bdd9c65.html</anchorfile>
       <anchor>aef9ce5dd2381caee1f8ddcdb5bdd9c65</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -515,7 +485,6 @@
       <name>is_string</name>
       <anchorfile>classnlohmann_1_1basic__json_a69b596a4a6683b362095c9a139637396.html</anchorfile>
       <anchor>a69b596a4a6683b362095c9a139637396</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -523,7 +492,6 @@
       <name>is_discarded</name>
       <anchorfile>classnlohmann_1_1basic__json_aabe623bc8304c2ba92d96d91f390fab4.html</anchorfile>
       <anchor>aabe623bc8304c2ba92d96d91f390fab4</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -531,7 +499,6 @@
       <name>operator value_t</name>
       <anchorfile>classnlohmann_1_1basic__json_a26ef3058e249f82a04f8ec18f7419027.html</anchorfile>
       <anchor>a26ef3058e249f82a04f8ec18f7419027</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -539,7 +506,6 @@
       <name>get</name>
       <anchorfile>classnlohmann_1_1basic__json_a6b187a22994c12c8cae0dd5ee99dc85e.html</anchorfile>
       <anchor>a6b187a22994c12c8cae0dd5ee99dc85e</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -547,7 +513,6 @@
       <name>get</name>
       <anchorfile>classnlohmann_1_1basic__json_a30ff63a4d671eb14f652356cd934320c.html</anchorfile>
       <anchor>a30ff63a4d671eb14f652356cd934320c</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -555,23 +520,20 @@
       <name>get</name>
       <anchorfile>classnlohmann_1_1basic__json_aa6602bb24022183ab989439e19345d08.html</anchorfile>
       <anchor>aa6602bb24022183ab989439e19345d08</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept(noexcept(JSONSerializer&lt; ValueType &gt;::from_json(std::declval&lt; const basic_json_t &amp; &gt;(), std::declval&lt; ValueType &amp; &gt;())))</arglist>
     </member>
     <member kind="function">
       <type>ValueType</type>
       <name>get</name>
-      <anchorfile>classnlohmann_1_1basic__json_a5afa21d477e13fa7a3dcd7ea66c48b52.html</anchorfile>
-      <anchor>a5afa21d477e13fa7a3dcd7ea66c48b52</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
-      <arglist>() const noexcept(noexcept(JSONSerializer&lt; ValueTypeCV &gt;::from_json(std::declval&lt; const basic_json_t &amp; &gt;())))</arglist>
+      <anchorfile>classnlohmann_1_1basic__json_a6c829df57e924f88cecb702a60af8f17.html</anchorfile>
+      <anchor>a6c829df57e924f88cecb702a60af8f17</anchor>
+      <arglist>() const noexcept(noexcept(JSONSerializer&lt; ValueType &gt;::from_json(std::declval&lt; const basic_json_t &amp; &gt;())))</arglist>
     </member>
     <member kind="function">
       <type>ValueType &amp;</type>
       <name>get_to</name>
       <anchorfile>classnlohmann_1_1basic__json_a65753c68f06639eda0d355f919564e01.html</anchorfile>
       <anchor>a65753c68f06639eda0d355f919564e01</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(ValueType &amp;v) const noexcept(noexcept(JSONSerializer&lt; ValueType &gt;::from_json(std::declval&lt; const basic_json_t &amp; &gt;(), v)))</arglist>
     </member>
     <member kind="function">
@@ -579,7 +541,6 @@
       <name>get_to</name>
       <anchorfile>classnlohmann_1_1basic__json_ab9d91cc9c3b62782b38d8f2158269937.html</anchorfile>
       <anchor>ab9d91cc9c3b62782b38d8f2158269937</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(T(&amp;v)[N]) const noexcept(noexcept(JSONSerializer&lt; Array &gt;::from_json(std::declval&lt; const basic_json_t &amp; &gt;(), v)))</arglist>
     </member>
     <member kind="function">
@@ -587,7 +548,6 @@
       <name>get_ptr</name>
       <anchorfile>classnlohmann_1_1basic__json_abefbb319df8ed4f8705b4fd4e4dc731c.html</anchorfile>
       <anchor>abefbb319df8ed4f8705b4fd4e4dc731c</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() noexcept -&gt; decltype(std::declval&lt; basic_json_t &amp; &gt;().get_impl_ptr(std::declval&lt; PointerType &gt;()))</arglist>
     </member>
     <member kind="function">
@@ -595,7 +555,6 @@
       <name>get_ptr</name>
       <anchorfile>classnlohmann_1_1basic__json_a6508b9ef55eb018231fb2198211f6d73.html</anchorfile>
       <anchor>a6508b9ef55eb018231fb2198211f6d73</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept -&gt; decltype(std::declval&lt; const basic_json_t &amp; &gt;().get_impl_ptr(std::declval&lt; PointerType &gt;()))</arglist>
     </member>
     <member kind="function">
@@ -603,7 +562,6 @@
       <name>get</name>
       <anchorfile>classnlohmann_1_1basic__json_a44516cba796e50ce5d62c9d6b7ab4c1d.html</anchorfile>
       <anchor>a44516cba796e50ce5d62c9d6b7ab4c1d</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() noexcept -&gt; decltype(std::declval&lt; basic_json_t &amp; &gt;().template get_ptr&lt; PointerType &gt;())</arglist>
     </member>
     <member kind="function">
@@ -611,7 +569,6 @@
       <name>get</name>
       <anchorfile>classnlohmann_1_1basic__json_ad6b0b151621542e5d135812b8c163222.html</anchorfile>
       <anchor>ad6b0b151621542e5d135812b8c163222</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const noexcept -&gt; decltype(std::declval&lt; const basic_json_t &amp; &gt;().template get_ptr&lt; PointerType &gt;())</arglist>
     </member>
     <member kind="function">
@@ -619,7 +576,6 @@
       <name>get_ref</name>
       <anchorfile>classnlohmann_1_1basic__json_afbd800010b67619463c0fce6e74f7878.html</anchorfile>
       <anchor>afbd800010b67619463c0fce6e74f7878</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -627,7 +583,6 @@
       <name>get_ref</name>
       <anchorfile>classnlohmann_1_1basic__json_ac382f3d2bc6a5d52d936e4e40593f03b.html</anchorfile>
       <anchor>ac382f3d2bc6a5d52d936e4e40593f03b</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -635,7 +590,6 @@
       <name>operator ValueType</name>
       <anchorfile>classnlohmann_1_1basic__json_a1f1d4bc973c5b866db3d96e14d2c9f3f.html</anchorfile>
       <anchor>a1f1d4bc973c5b866db3d96e14d2c9f3f</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -643,7 +597,6 @@
       <name>at</name>
       <anchorfile>classnlohmann_1_1basic__json_a73ae333487310e3302135189ce8ff5d8.html</anchorfile>
       <anchor>a73ae333487310e3302135189ce8ff5d8</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(size_type idx)</arglist>
     </member>
     <member kind="function">
@@ -756,7 +709,6 @@
       <name>back</name>
       <anchorfile>classnlohmann_1_1basic__json_a011397134847f36db0ed7d7a93753677.html</anchorfile>
       <anchor>a011397134847f36db0ed7d7a93753677</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -792,7 +744,6 @@
       <name>erase</name>
       <anchorfile>classnlohmann_1_1basic__json_a88cbcefe9a3f4d294bed0653550a5cb9.html</anchorfile>
       <anchor>a88cbcefe9a3f4d294bed0653550a5cb9</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(const size_type idx)</arglist>
     </member>
     <member kind="function">
@@ -849,7 +800,6 @@
       <name>begin</name>
       <anchorfile>classnlohmann_1_1basic__json_a0ff28dac23f2bdecee9564d07f51dcdc.html</anchorfile>
       <anchor>a0ff28dac23f2bdecee9564d07f51dcdc</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
@@ -871,7 +821,6 @@
       <name>end</name>
       <anchorfile>classnlohmann_1_1basic__json_a13e032a02a7fd8a93fdddc2fcbc4763c.html</anchorfile>
       <anchor>a13e032a02a7fd8a93fdddc2fcbc4763c</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>() noexcept</arglist>
     </member>
     <member kind="function">
@@ -1019,7 +968,6 @@
       <name>push_back</name>
       <anchorfile>classnlohmann_1_1basic__json_a1be31ef2d2934d37a818083a4af44f99.html</anchorfile>
       <anchor>a1be31ef2d2934d37a818083a4af44f99</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist>(initializer_list_t init)</arglist>
     </member>
     <member kind="function">
@@ -1554,23 +1502,20 @@
       <name>json_pointer</name>
       <anchorfile>classnlohmann_1_1json__pointer_a7f32d7c62841f0c4a6784cf741a6e4f8.html</anchorfile>
       <anchor>a7f32d7c62841f0c4a6784cf741a6e4f8</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer@F@json_pointer#&amp;1I#</clangid>
       <arglist>(const std::string &amp;s=&quot;&quot;)</arglist>
     </member>
     <member kind="function">
       <type>const std::string &amp;</type>
       <name>back</name>
-      <anchorfile>classnlohmann_1_1json__pointer_a6bd5b554c10f15672135c216893eef31.html</anchorfile>
-      <anchor>a6bd5b554c10f15672135c216893eef31</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
-      <arglist>()</arglist>
+      <anchorfile>classnlohmann_1_1json__pointer_a213bc67c32a30c68ac6bf06f5195d482.html</anchorfile>
+      <anchor>a213bc67c32a30c68ac6bf06f5195d482</anchor>
+      <arglist>() const</arglist>
     </member>
     <member kind="function">
       <type>bool</type>
       <name>empty</name>
       <anchorfile>classnlohmann_1_1json__pointer_a649252bda4a2e75a0915b11a25d8bcc3.html</anchorfile>
       <anchor>a649252bda4a2e75a0915b11a25d8bcc3</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>() const noexcept</arglist>
     </member>
     <member kind="function">
@@ -1578,7 +1523,6 @@
       <name>operator std::string</name>
       <anchorfile>classnlohmann_1_1json__pointer_ae9015c658f99cf3d48a8563accc79988.html</anchorfile>
       <anchor>ae9015c658f99cf3d48a8563accc79988</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -1586,31 +1530,27 @@
       <name>operator/=</name>
       <anchorfile>classnlohmann_1_1json__pointer_a7395bd0af29ac23fd3f21543c935cdfa.html</anchorfile>
       <anchor>a7395bd0af29ac23fd3f21543c935cdfa</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(const json_pointer &amp;ptr)</arglist>
-    </member>
-    <member kind="function">
-      <type>json_pointer &amp;</type>
-      <name>operator/=</name>
-      <anchorfile>classnlohmann_1_1json__pointer_abdd21567b2b1d69329af0f520335e68b.html</anchorfile>
-      <anchor>abdd21567b2b1d69329af0f520335e68b</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
-      <arglist>(std::string token)</arglist>
     </member>
     <member kind="function">
       <type>json_pointer &amp;</type>
       <name>operator/=</name>
       <anchorfile>classnlohmann_1_1json__pointer_a64c8401529131bad1e486d91d703795f.html</anchorfile>
       <anchor>a64c8401529131bad1e486d91d703795f</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(std::size_t array_index)</arglist>
+    </member>
+    <member kind="function">
+      <type>json_pointer &amp;</type>
+      <name>operator/=</name>
+      <anchorfile>classnlohmann_1_1json__pointer_abdd21567b2b1d69329af0f520335e68b.html</anchorfile>
+      <anchor>abdd21567b2b1d69329af0f520335e68b</anchor>
+      <arglist>(std::string token)</arglist>
     </member>
     <member kind="function">
       <type>json_pointer</type>
       <name>parent_pointer</name>
       <anchorfile>classnlohmann_1_1json__pointer_afdaacce1edb7145e0434e014f0e8685a.html</anchorfile>
       <anchor>afdaacce1edb7145e0434e014f0e8685a</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="function">
@@ -1618,7 +1558,6 @@
       <name>pop_back</name>
       <anchorfile>classnlohmann_1_1json__pointer_a4b1ee4d511ca195bed896a3da47e264c.html</anchorfile>
       <anchor>a4b1ee4d511ca195bed896a3da47e264c</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>()</arglist>
     </member>
     <member kind="function">
@@ -1626,7 +1565,6 @@
       <name>push_back</name>
       <anchorfile>classnlohmann_1_1json__pointer_a697d12b5bd6205f8866691b166b7c7dc.html</anchorfile>
       <anchor>a697d12b5bd6205f8866691b166b7c7dc</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(const std::string &amp;token)</arglist>
     </member>
     <member kind="function">
@@ -1634,7 +1572,6 @@
       <name>push_back</name>
       <anchorfile>classnlohmann_1_1json__pointer_ac228b13596d3c34185da9fe61b570194.html</anchorfile>
       <anchor>ac228b13596d3c34185da9fe61b570194</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(std::string &amp;&amp;token)</arglist>
     </member>
     <member kind="function">
@@ -1642,7 +1579,6 @@
       <name>to_string</name>
       <anchorfile>classnlohmann_1_1json__pointer_a3d4b15d32d096e3776c5d2c773b524f5.html</anchorfile>
       <anchor>a3d4b15d32d096e3776c5d2c773b524f5</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer@F@to_string#1</clangid>
       <arglist>() const</arglist>
     </member>
     <member kind="friend" protection="private">
@@ -1650,7 +1586,6 @@
       <name>basic_json</name>
       <anchorfile>classnlohmann_1_1json__pointer_ada3100cdb8700566051828f1355fa745.html</anchorfile>
       <anchor>ada3100cdb8700566051828f1355fa745</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;9#t&gt;3#T#T#pT#t&gt;2#T#pT#T#T#T#T#T#t&gt;1#T#t&gt;2#T#T@basic_json</clangid>
       <arglist></arglist>
     </member>
     <member kind="friend" protection="private">
@@ -1658,7 +1593,6 @@
       <name>operator!=</name>
       <anchorfile>classnlohmann_1_1json__pointer_a6779edcf28e6f018a3bbb29c0b4b5e1e.html</anchorfile>
       <anchor>a6779edcf28e6f018a3bbb29c0b4b5e1e</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(json_pointer const &amp;lhs, json_pointer const &amp;rhs) noexcept</arglist>
     </member>
     <member kind="friend">
@@ -1666,38 +1600,33 @@
       <name>operator/</name>
       <anchorfile>classnlohmann_1_1json__pointer_a90a11fe6c7f37b1746a3ff9cb24b0d53.html</anchorfile>
       <anchor>a90a11fe6c7f37b1746a3ff9cb24b0d53</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(const json_pointer &amp;lhs, const json_pointer &amp;rhs)</arglist>
-    </member>
-    <member kind="friend">
-      <type>friend json_pointer</type>
-      <name>operator/</name>
-      <anchorfile>classnlohmann_1_1json__pointer_a926c9065dbed1bedc17857a813f7a46f.html</anchorfile>
-      <anchor>a926c9065dbed1bedc17857a813f7a46f</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
-      <arglist>(const json_pointer &amp;ptr, std::string token)</arglist>
     </member>
     <member kind="friend">
       <type>friend json_pointer</type>
       <name>operator/</name>
       <anchorfile>classnlohmann_1_1json__pointer_a9f6bc6f4d4668b4e9a19d8b8ac29da4f.html</anchorfile>
       <anchor>a9f6bc6f4d4668b4e9a19d8b8ac29da4f</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(const json_pointer &amp;ptr, std::size_t array_index)</arglist>
+    </member>
+    <member kind="friend">
+      <type>friend json_pointer</type>
+      <name>operator/</name>
+      <anchorfile>classnlohmann_1_1json__pointer_a926c9065dbed1bedc17857a813f7a46f.html</anchorfile>
+      <anchor>a926c9065dbed1bedc17857a813f7a46f</anchor>
+      <arglist>(const json_pointer &amp;ptr, std::string token)</arglist>
     </member>
     <member kind="friend" protection="private">
       <type>friend bool</type>
       <name>operator==</name>
       <anchorfile>classnlohmann_1_1json__pointer_a4667ef558c8c3f8a646bfda0c6654653.html</anchorfile>
       <anchor>a4667ef558c8c3f8a646bfda0c6654653</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_pointer</clangid>
       <arglist>(json_pointer const &amp;lhs, json_pointer const &amp;rhs) noexcept</arglist>
     </member>
   </compound>
   <compound kind="struct">
     <name>nlohmann::json_sax</name>
     <filename>structnlohmann_1_1json__sax.html</filename>
-    <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax</clangid>
     <templarg></templarg>
     <member kind="typedef">
       <type>typename BasicJsonType::number_float_t</type>
@@ -1732,7 +1661,6 @@
       <name>~json_sax</name>
       <anchorfile>structnlohmann_1_1json__sax_af31bacfa81aa7818d8639d1da65c8eb5.html</anchorfile>
       <anchor>af31bacfa81aa7818d8639d1da65c8eb5</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@~json_sax#</clangid>
       <arglist>()=default</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1740,7 +1668,6 @@
       <name>boolean</name>
       <anchorfile>structnlohmann_1_1json__sax_a82ed080814fa656191a537284bb0c575.html</anchorfile>
       <anchor>a82ed080814fa656191a537284bb0c575</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@boolean#b#</clangid>
       <arglist>(bool val)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1748,7 +1675,6 @@
       <name>end_array</name>
       <anchorfile>structnlohmann_1_1json__sax_a235ee975617f28e6a996d1e36a282312.html</anchorfile>
       <anchor>a235ee975617f28e6a996d1e36a282312</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@end_array#</clangid>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1756,7 +1682,6 @@
       <name>end_object</name>
       <anchorfile>structnlohmann_1_1json__sax_ad0c722d53ff97be700ccf6a9468bd456.html</anchorfile>
       <anchor>ad0c722d53ff97be700ccf6a9468bd456</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@end_object#</clangid>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1764,7 +1689,6 @@
       <name>key</name>
       <anchorfile>structnlohmann_1_1json__sax_a2e0c7ecd80b18d18a8cc76f71cfc2028.html</anchorfile>
       <anchor>a2e0c7ecd80b18d18a8cc76f71cfc2028</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@key#&amp;^type-parameter-0-0:::string_t#</clangid>
       <arglist>(string_t &amp;val)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1772,7 +1696,6 @@
       <name>null</name>
       <anchorfile>structnlohmann_1_1json__sax_a0ad26edef3f8d530dcec3192bba82df6.html</anchorfile>
       <anchor>a0ad26edef3f8d530dcec3192bba82df6</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@null#</clangid>
       <arglist>()=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1780,7 +1703,6 @@
       <name>number_float</name>
       <anchorfile>structnlohmann_1_1json__sax_ae7c31614e8a82164d2d7f8dbf4671b25.html</anchorfile>
       <anchor>ae7c31614e8a82164d2d7f8dbf4671b25</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@number_float#^type-parameter-0-0:::number_float_t#&amp;1^type-parameter-0-0:::string_t#</clangid>
       <arglist>(number_float_t val, const string_t &amp;s)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1788,7 +1710,6 @@
       <name>number_integer</name>
       <anchorfile>structnlohmann_1_1json__sax_affa7a78b8e9cc9cc3ac99927143142a5.html</anchorfile>
       <anchor>affa7a78b8e9cc9cc3ac99927143142a5</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@number_integer#^type-parameter-0-0:::number_integer_t#</clangid>
       <arglist>(number_integer_t val)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1796,7 +1717,6 @@
       <name>number_unsigned</name>
       <anchorfile>structnlohmann_1_1json__sax_ad9b253083e0509923ba195136f49face.html</anchorfile>
       <anchor>ad9b253083e0509923ba195136f49face</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@number_unsigned#^type-parameter-0-0:::number_unsigned_t#</clangid>
       <arglist>(number_unsigned_t val)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1804,7 +1724,6 @@
       <name>parse_error</name>
       <anchorfile>structnlohmann_1_1json__sax_a60287e3bd85f489e04c83f7e3b76e613.html</anchorfile>
       <anchor>a60287e3bd85f489e04c83f7e3b76e613</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@parse_error#I#&amp;1I#&amp;1$@N@nlohmann@N@detail@S@exception#</clangid>
       <arglist>(std::size_t position, const std::string &amp;last_token, const detail::exception &amp;ex)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1812,7 +1731,6 @@
       <name>start_array</name>
       <anchorfile>structnlohmann_1_1json__sax_a5c53878cf08d463eb4e7ca0270532572.html</anchorfile>
       <anchor>a5c53878cf08d463eb4e7ca0270532572</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@start_array#I#</clangid>
       <arglist>(std::size_t elements)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1820,7 +1738,6 @@
       <name>start_object</name>
       <anchorfile>structnlohmann_1_1json__sax_a0671528b0debb5a348169d61f0382a0f.html</anchorfile>
       <anchor>a0671528b0debb5a348169d61f0382a0f</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@start_object#I#</clangid>
       <arglist>(std::size_t elements)=0</arglist>
     </member>
     <member kind="function" virtualness="pure">
@@ -1828,14 +1745,12 @@
       <name>string</name>
       <anchorfile>structnlohmann_1_1json__sax_a07eab82f6c82d606787eee9ad73d2bda.html</anchorfile>
       <anchor>a07eab82f6c82d606787eee9ad73d2bda</anchor>
-      <clangid>c:@N@nlohmann@ST&gt;1#T@json_sax@F@string#&amp;^type-parameter-0-0:::string_t#</clangid>
       <arglist>(string_t &amp;val)=0</arglist>
     </member>
   </compound>
   <compound kind="namespace">
     <name>nlohmann</name>
     <filename>namespacenlohmann.html</filename>
-    <clangid>c:@N@nlohmann</clangid>
     <namespace>nlohmann::anonymous_namespace{json.hpp}</namespace>
     <class kind="struct">nlohmann::adl_serializer</class>
     <class kind="class">nlohmann::basic_json</class>
@@ -1864,7 +1779,6 @@
       <name>from_json</name>
       <anchorfile>namespacenlohmann_1_1anonymous__namespace_02json_8hpp_03_a69afe041fa2aeac2239b65ae88b64af8.html</anchorfile>
       <anchor>a69afe041fa2aeac2239b65ae88b64af8</anchor>
-      <clangid>c:json.hpp@aN@from_json</clangid>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -1872,7 +1786,6 @@
       <name>to_json</name>
       <anchorfile>namespacenlohmann_1_1anonymous__namespace_02json_8hpp_03_a455d0daa616e67bbb74d81cf3ba15e79.html</anchorfile>
       <anchor>a455d0daa616e67bbb74d81cf3ba15e79</anchor>
-      <clangid>c:json.hpp@aN@to_json</clangid>
       <arglist></arglist>
     </member>
   </compound>
