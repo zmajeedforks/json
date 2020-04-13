@@ -353,6 +353,10 @@ class json_pointer
         {
             JSON_THROW(detail::out_of_range::create(404, "unresolved reference token '" + s + "'"));
         }
+        JSON_CATCH(std::invalid_argument&)
+        {
+            JSON_THROW(detail::out_of_range::create(404, "unresolved reference token '" + s + "'"));
+        }
 
         // check if the string was completely read
         if (JSON_HEDLEY_UNLIKELY(processed_chars != s.size()))
